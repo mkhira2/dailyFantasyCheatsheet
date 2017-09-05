@@ -70,7 +70,7 @@ var Navigation = React.createClass({
 	        	</div>
 	        </a>
 
-	        <div className='nav-footer'>
+	        {/* <div className='nav-footer'>
 	        	<a href='https://twitter.com/DF_CheatSheet' target='_blank'>
 	        		<div className='foot-social'><i className="fa fa-twitter fa-lg" aria-hidden="true"></i></div>
 	        	</a>
@@ -81,7 +81,7 @@ var Navigation = React.createClass({
 	        		<div className='foot-social'><i className="fa fa-envelope fa-lg" aria-hidden="true"></i></div>
 	        	</a>
 	        	<p>Daily Fantasy CheatSheet 2017  &copy;</p>
-	        </div>
+	        </div> */}
   		</div>
   	)
   }

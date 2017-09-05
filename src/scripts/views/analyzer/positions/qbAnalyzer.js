@@ -191,7 +191,7 @@ var Injury = React.createClass({
 	    else {
 	    	return (
 		        <td style={highlightGreen}>
-		          GTG
+
 		        </td>
 	    	)
 	    }
@@ -620,7 +620,7 @@ var Line = React.createClass({
 		        </td>
 	      	)
 	    }
-	    if (num <= 6 && num > 2) {
+	    if (num <= 6 && num >= 2) {
 	      	return (
 		        <td style={highlightLightRed} id='break'>
 		          {this.props.line}

@@ -604,7 +604,6 @@ var ACTIONS = {
       var salary = Number(currency.replace(/[^0-9\.-]+/g,""));
       var proj = parseInt(qb[i].proj)
       if (qb[i].teamTotal >= 26 && line <= 0 && slate !== 'Thu' && slate !== 'Mon' && injury !== 'PUP' && injury !== 'SSPD') {
-        // && qb[i].ha === 'Home' && salary > 5000 && salary < 8000
         qbPicksArr.push(qb[i])
       }
     }
@@ -621,7 +620,6 @@ var ACTIONS = {
       var salary = Number(currency.replace(/[^0-9\.-]+/g,""));
       var proj = parseInt(rb[i].proj)
       if (line <= -3 && slate !== 'Thu' && slate !== 'Mon' && injury !== 'PUP' && injury !== 'SSPD' && proj >= 8 && rb[i].ha === 'Home') {
-        // rb[i].teamTotal >= 24 && rb[i].ha === 'Home' && line < 0 && salary > 5000 && salary < 12000 && proj >= 10
         rbPicksArr.push(rb[i])
       }
     }
