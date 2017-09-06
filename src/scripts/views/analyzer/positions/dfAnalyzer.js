@@ -41,21 +41,21 @@ var Headers = React.createClass({
     return (
       	<thead>
 	        <tr>
-	        	<th id='widen-th' className='headercol' >TEAM <span data-tip="Team Name"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th>OPP <span data-tip="Opponent"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th id="shrink-th">SLATE <span data-tip="Slate"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th>DK SALARY <span data-tip="DraftKings Salary"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th>FPPG <span data-tip="DraftKings Fantasy<br>Points Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th>PROJ <span data-tip="Projection"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th>H-VALUE  <span data-tip="H-Value<br>(by Footballguys)"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th id='break'>LINE <span data-tip="Vegas Line"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th>GM TOTAL <span data-tip="Vegas Game Total"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th>TM TOTAL <span data-tip="Vegas Team Total"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th className='notice' id='break'>DEF TDS<span data-tip="Defensive<br>Touchdowns"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th className='notice'>INTS <span data-tip="Interceptions"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th className='notice'>FUM REC<span data-tip="Fumble Recoveries"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th className='notice'>SACKS<span data-tip="Sacks"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th className='notice'>RET TDS<span data-tip="Kick Return<br>Touchdowns"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+	        	<th id='widen-th' className='headercol' ><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Opponent">OPP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+            <th id="shrink-th"><span id='th-pointer' data-tip="Slate">SLATE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="DraftKings Salary">DK SALARY</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="DraftKings Fantasy<br>Points Per Game">FPPG</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Projection">PROJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="H-Value<br>(by Footballguys)">H-VALUE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Vegas Game Total">GM TOTAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Vegas Team Total">TM TOTAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th className='notice' id='break'><span id='th-pointer' data-tip="Defensive<br>Touchdowns">DEF TDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th className='notice'><span id='th-pointer' data-tip="Interceptions">INTS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th className='notice'><span id='th-pointer' data-tip="Fumble Recoveries">FUM REC</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th className='notice'><span id='th-pointer' data-tip="Sacks">SACKS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+            <th className='notice'><span id='th-pointer' data-tip="Kick Return<br>Touchdowns">RET TDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 	        </tr>
       	</thead>
     )

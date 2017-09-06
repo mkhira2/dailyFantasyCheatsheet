@@ -9,27 +9,27 @@ var Buttons = React.createClass({
 			<div className='button-container'>
 				<div className='pos-button-row' id="pick-buttons">
 		            <button className='stat-button' id="pick-pos-button"
-		            		style={{backgroundColor:this.props.qbCheatButtonColor, color:this.props.qbCheatButtonFontColor}}
+		            		style={{background:this.props.qbCheatButtonColor, color:this.props.qbCheatButtonFontColor}}
 		            		onClick={ACTIONS.showQBCheat}>
 		              <p>QUARTERBACKS</p>
 		            </button>
 		            <button className='stat-button' id="pick-pos-button"
-		            		style={{backgroundColor:this.props.rbCheatButtonColor, color:this.props.rbCheatButtonFontColor}}
+		            		style={{background:this.props.rbCheatButtonColor, color:this.props.rbCheatButtonFontColor}}
 		            		onClick={ACTIONS.showRBCheat}>
 		              <p>RUNNING BACKS</p>
 		            </button>
 		            <button className='stat-button' id="pick-pos-button"
-		            		style={{backgroundColor:this.props.wrCheatButtonColor, color:this.props.wrCheatButtonFontColor}}
+		            		style={{background:this.props.wrCheatButtonColor, color:this.props.wrCheatButtonFontColor}}
 		            		onClick={ACTIONS.showWRCheat}>
 		              <p>WIDE RECEIVERS</p>
 		            </button>
 		            <button className='stat-button' id="pick-pos-button"
-		            		style={{backgroundColor:this.props.teCheatButtonColor, color:this.props.teCheatButtonFontColor}}
+		            		style={{background:this.props.teCheatButtonColor, color:this.props.teCheatButtonFontColor}}
 		            		onClick={ACTIONS.showTECheat}>
 		              <p>TIGHT ENDS</p>
 		            </button>
 		            <button className='stat-button' id="pick-pos-button"
-		            		style={{backgroundColor:this.props.dfCheatButtonColor, color:this.props.dfCheatButtonFontColor}}
+		            		style={{background:this.props.dfCheatButtonColor, color:this.props.dfCheatButtonFontColor}}
 		            		onClick={ACTIONS.showDFCheat}>
 		              <p>DEFENSE/ST</p>
 		            </button>

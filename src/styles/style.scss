@@ -2,7 +2,7 @@
  //------------- CONSTANT STYLES --------------//
 //============================================//
 $background: #fff;	// rgb(80, 87, 100) -- Background
-$primary: #292C3A; 		// rgb(37, 41, 57)  -- Header
+$primary: #0B2545; 		// rgb(37, 41, 57)  -- Header
 $secondary: #303448; 	// rgb(48, 52, 72)  -- Element BG
 $elementBG: #323648;	// rgb(62, 67, 86)  -- Table BG
 $blue: #0059b5;			// rgb(0, 141, 245)
@@ -88,7 +88,7 @@ button {
  //------------- FRAME CONTAINER --------------//
 //============================================//
 .data-container {
-	padding: 0 0 0 250px;
+	// padding: 0 0 0 250px;
 	width: 100%;
 }
 
@@ -97,10 +97,10 @@ button {
 //============================================//
 .header-container {
 	width: 100%;
-	height: 85px;
+	height: 75px;
 	background-color: $primary;
 	position: fixed;
-	padding-left: 250px;
+	padding: 15px 40px;
 
 	display:-webkit-flex;
     display:flex;
@@ -119,7 +119,7 @@ button {
 	letter-spacing: 1px;
 	font-weight: 500;
 	font-size: 1.25rem;
-	padding: 30px 20px;
+	padding: 18px 20px;
 	text-decoration: none;
 	color: #fff;
 }
@@ -166,92 +166,137 @@ button {
 
 
 
+                        //============================================//
+                        //---------- TEMP NAVIGATION STYLES ----------//
+                        //============================================//
+                        .navigation-container {
+                          box-sizing: content-box;
+                          color: #fff;
+                          background-color: #004080;
+                          display: flex;
+                          justify-content: space-around;
+                          padding-top: 75px;
+
+                          a {
+                            color: #fff;
+                            text-decoration: none;
+
+                            .navigation-links {
+                              display: flex;
+                              align-items: center;
+                              justify-content: center;
+                              padding-right: 10px;
+
+                            .nav-icon-box {
+                              padding: 0 10px;
+                            }
+
+                            p {
+                              font-size: 13px;
+                              margin: 0;
+                              padding: 14px 0 10px 0;
+                            }
+                          }
+                        }
+                      }
+                      .link-boxes {
+                        width: 175px;
+                        border-bottom: 3px solid #004080;
+                        transition: border-bottom .2s ease-in;
+                      }
+                      .link-boxes:hover {
+                        border-bottom: 3px solid #1a8cff;
+                      }
+                      #th-pointer {
+                        cursor: pointer;
+                      }
+
+
   //============================================//
  //----------- NAVIGATION STYLES --------------//
 //============================================//
-.navigation-container {
-	position: relative;
-	box-sizing: content-box;
-    height: 100%;
-    width: 250px;
-    color: #fff;
-    background-color: $primary;
-    position: fixed;
-    top: 0px;
-    left: 0;
-    z-index: 150;
-    overflow-x: hidden;
-
-	.nav-profile {
-		width: 100%;
-		padding: 18px 15px;
-		height: 85px;
-		background: $primary;
-
-		h5, p {
-			margin: 5px;
-		}
-	}
-
-    a {
-    	text-decoration: none;
-    }
-
-    .navigation-links {
-    	border-left: 5px solid $primary;
-
-		p {
-			display: inline-block;
-			margin: 0;
-			color: #FFF;
-			letter-spacing: 1px;
-			padding: 20px 0;
-		}
-
-		.nav-icon-box {
-			display: inline-block;
-			padding: 20px 15px;
-			color: #FFF;
-		}
-
-	}
-
-	.navigation-links:hover {
-		background-color:  #35394b;
-		border-left: 5px solid $blue;
-	}
-}
-
-.nav-footer {
-	position: absolute;
-	width: 100%;
-	bottom: 0;
-	height: 75px;
-	background-color: $primary;
-	text-align: center;
-
-
-	.foot-social {
-		display: inline-block;
-		color: $sec-font;
-		width: 20px;
-		text-align: center;
-		margin: 15px 10px;
-	}
-
-	p {
-		margin: 0;
-		padding: 0;
-		font-size: .75rem;
-		color: #bbb;
-	}
-
-}
-
-
-.fa {
-	width: 15px;
-}
+// .navigation-container {
+// 	position: relative;
+// 	box-sizing: content-box;
+//     height: 100%;
+//     width: 250px;
+//     color: #fff;
+//     background-color: $primary;
+//     position: fixed;
+//     top: 0px;
+//     left: 0;
+//     z-index: 150;
+//     overflow-x: hidden;
+//
+// 	.nav-profile {
+// 		width: 100%;
+// 		padding: 18px 15px;
+// 		height: 85px;
+// 		background: $primary;
+//
+// 		h5, p {
+// 			margin: 5px;
+// 		}
+// 	}
+//
+//     a {
+//     	text-decoration: none;
+//     }
+//
+//     .navigation-links {
+//     	border-left: 5px solid $primary;
+//
+// 		p {
+// 			display: inline-block;
+// 			margin: 0;
+// 			color: #FFF;
+// 			letter-spacing: 1px;
+// 			padding: 20px 0;
+// 		}
+//
+// 		.nav-icon-box {
+// 			display: inline-block;
+// 			padding: 20px 15px;
+// 			color: #FFF;
+// 		}
+//
+// 	}
+//
+// 	.navigation-links:hover {
+// 		background-color:  #35394b;
+// 		border-left: 5px solid $blue;
+// 	}
+// }
+//
+// .nav-footer {
+// 	position: absolute;
+// 	width: 100%;
+// 	bottom: 0;
+// 	height: 75px;
+// 	background-color: $primary;
+// 	text-align: center;
+//
+//
+// 	.foot-social {
+// 		display: inline-block;
+// 		color: $sec-font;
+// 		width: 20px;
+// 		text-align: center;
+// 		margin: 15px 10px;
+// 	}
+//
+// 	p {
+// 		margin: 0;
+// 		padding: 0;
+// 		font-size: .75rem;
+// 		color: #bbb;
+// 	}
+//
+// }
+//
+// .fa {
+// 	width: 15px;
+// }
 
   //============================================//
  //-------------- LANDING PAGE ----------------//
@@ -690,8 +735,8 @@ button {
 
 .section-header {
 	width: 100%;
-	height: 160px;
-    padding: 85px 0px 0px 0px;
+	height: 65px;
+    padding: 0px 0px 0px 0px;
 	// background: linear-gradient($hover, #004080);
 	background: url('../images/football_stadium.jpg') no-repeat center center;
 		-webkit-background-size: cover;
@@ -700,8 +745,8 @@ button {
 		background-size: cover;
 
 	h4 {
-		padding: 24px 60px;
-    	font-size: 26px;
+		padding: 16px 80px;
+    	font-size: 28px;
     	font-family: 'Play';
     	font-weight: 700;
 		text-transform: uppercase;
@@ -726,7 +771,7 @@ button {
 	display: inline-block;
 	float: right;
 	text-align: center;
-	padding: 25px 60px;
+	padding: 18px 75px;
 	text-shadow: 1px 1px 2px #000;
 
 	.legend {
@@ -1037,9 +1082,9 @@ button {
 }
 
 .statistics-wrapper {
-	display: flex;
-	display: -webkit-flex;
-	display: -ms-flex;
+	// display: flex;
+	// display: -webkit-flex;
+	// display: -ms-flex;
 }
 
 .stat-container {
@@ -1060,7 +1105,7 @@ button {
 		table {
 			margin: 0;
 			width: 100%;
-			font-size: 12px;
+			font-size: 11px;
 		  font-family: 'Roboto';
 		  font-weight: 400;
 			color: #444;
@@ -1080,7 +1125,7 @@ button {
 			    vertical-align: bottom;
 			    text-align: center;
 			    letter-spacing: 1px;
-			    width: 135px;
+			    width: 75px;
 			    padding: 15px;
 			    white-space: nowrap;
 		    	font-family: 'Play';
@@ -1102,7 +1147,7 @@ button {
 
 			td {
 			    text-align: center;
-			    padding: 20px;
+			    padding: 12px;
 			    letter-spacing: 1px;
 			    width: 120px;
 			    white-space: nowrap;
@@ -1123,14 +1168,14 @@ button {
 
 			#align-left {
 		    	text-align: left;
-		    	width: 160px;
+		    	width: 140px;
 		    }
 		    #widen-th {
-		    	width: 180px;
+		    	width: 140px;
 		    }
 
         #shrink-th {
-		    	width: 100px;
+		    	width: 80px;
 		    }
 
 		    #break {
@@ -1195,7 +1240,7 @@ button {
 		}
 
 		button:hover {
-			background-color: $hover;
+			background: linear-gradient(#336D9F, #004080);
 			color: #fff;
 		}
 
@@ -1215,7 +1260,7 @@ button {
 		}
 
 		button:hover {
-			background-color: $hover;
+			background: linear-gradient(#336D9F, #004080);
 			color: #fff;
 		}
 	}
@@ -1234,14 +1279,14 @@ button {
 		}
 
 		button:hover {
-			background-color: $hover;
+			background: linear-gradient(#336D9F, #004080);
 			color: #fff;
 		}
 	}
 
 	#current-button {
 		cursor: auto;
-		background-color: $blue;
+		background: linear-gradient(#336D9F, #004080);
 
 	}
 	button:focus {

@@ -41,27 +41,27 @@ var Headers = React.createClass({
     return (
       	<thead>
 	        <tr>
-				<th id='widen-th' className='headercol' >PLAYER <span data-tip="Player Name"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th id='widen-th'>TEAM <span data-tip="Team Name"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>OPP <span data-tip="Opponent"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-        <th id="shrink-th">SLATE <span data-tip="Slate"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-        <th id="shrink-th">INJ <span data-tip="Injuries"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>DK SALARY <span data-tip="DraftKings Salary"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>FPPG <span data-tip="DraftKings Fantasy<br>Points Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th id='break'>PROJ <span data-tip="Projection"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>VALUE <span data-tip="H-Value<br>(by Footballguys)"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-        <th>OWN <span data-tip="Ownage %<br>(by Rotowire)"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th id='break'>LINE <span data-tip="Vegas Line"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>GM TOTAL <span data-tip="Vegas Game Total"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>TM TOTAL <span data-tip="Vegas Team Total"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice' id='break'>DvRB <span data-tip="Defense Vs. RB Grade<br>(Based on Fantasy Points<br>Against Position)"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice' >RU DVOA <span data-tip="Rush Defense DVOA<br>(by Fantasy Outsiders)<br><br>*2016 Rating<br>Will be update after<br>Week 4"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice' id='break'>TTL/YDS PG <span data-tip="Total Yards<br>Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice' >TTL/TD PG <span data-tip="Total Touchdowns<br>Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice' >TOUCH MKT <span data-tip="Marketshare %<br>for Team Touches"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice' >REC PG <span data-tip="Receptions<br>Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice' >REC YDS PG <span data-tip="Receiving Yards<br>Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice' >TARGET MKT <span data-tip="Marketshare %<br>for Team Targets"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='widen-th' className='headercol' ><span id='th-pointer' data-tip="Player Name">PLAYER <i className="fa fa-caret-down" aria-hidden="true"></i></span></th>
+				<th id='widen-th'><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Opponent">OPP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+        <th id="shrink-th"><span id='th-pointer' data-tip="Slate">SLT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+        <th id="shrink-th"><span id='th-pointer' data-tip="Injuries">INJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="DraftKings Salary">SAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th> <span id='th-pointer' data-tip="DraftKings Fantasy<br>Points Per Game">FPPG</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='break'><span id='th-pointer' data-tip="Projection">PROJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="H-Value<br>(by Footballguys)">VAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+        <th><span id='th-pointer' data-tip="Ownage %<br>(by Rotowire)">OWN</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='break'><span data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Vegas Game Total">G/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Vegas Team Total">T/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice' id='break'><span id='th-pointer' data-tip="Defense Vs. RB Grade<br>(Based on Fantasy Points<br>Against Position)">DvRB</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice' ><span id='th-pointer' data-tip="Rush Defense DVOA<br>(by Fantasy Outsiders)<br><br>*2016 Rating<br>Will be update after<br>Week 4">DVOA</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice' id='break'><span id='th-pointer' data-tip="Total Yards<br>Per Game">YD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice'><span id='th-pointer' data-tip="Total Touchdowns<br>Per Game">TD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice'><span id='th-pointer' data-tip="Marketshare %<br>for Team Touches">TCH/MK</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice'><span id='th-pointer' data-tip="Receptions<br>Per Game">REC/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice' ><span id='th-pointer' data-tip="Receiving Yards<br>Per Game">ReYD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice'><span id='th-pointer' data-tip="Marketshare %<br>for Team Targets">TAR/MK</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 	        </tr>
       	</thead>
     )

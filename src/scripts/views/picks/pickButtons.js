@@ -9,31 +9,31 @@ var PickButtons = React.createClass({
 			<div className='button-container'>
 				<div className='pos-button-row' id="pick-buttons" >
           <button id="pick-pos-button"
-            style={{backgroundColor:this.props.qbPicksButtonColor,
+            style={{background:this.props.qbPicksButtonColor,
             color:this.props.qbPicksButtonFontColor}}
             onClick={ACTIONS.showQBPicks}>
             <p>QUARTERBACKS</p>
           </button>
           <button id="pick-pos-button"
-            style={{backgroundColor:this.props.rbPicksButtonColor,
+            style={{background:this.props.rbPicksButtonColor,
             color:this.props.rbPicksButtonFontColor}}
             onClick={ACTIONS.showRBPicks}>
             <p>RUNNING BACKS</p>
           </button>
           <button id="pick-pos-button"
-            style={{backgroundColor:this.props.wrPicksButtonColor,
+            style={{background:this.props.wrPicksButtonColor,
             color:this.props.wrPicksButtonFontColor}}
             onClick={ACTIONS.showWRPicks}>
             <p>WIDE RECEIVERS</p>
           </button>
           <button id="pick-pos-button"
-            style={{backgroundColor:this.props.tePicksButtonColor,
+            style={{background:this.props.tePicksButtonColor,
             color:this.props.tePicksButtonFontColor}}
             onClick={ACTIONS.showTEPicks}>
             <p>TIGHT ENDS</p>
           </button>
           <button id="pick-pos-button"
-            style={{backgroundColor:this.props.dfPicksButtonColor,
+            style={{background:this.props.dfPicksButtonColor,
             color:this.props.dfPicksButtonFontColor}}
             onClick={ACTIONS.showDFPicks}>
             <p>DEFENSE/ST</p>

@@ -8,47 +8,47 @@ var DefensiveButtons = React.createClass({
 		return (
 			<div className='button-container'>
 				<div className='pos-button-row'>
-		            <button className='stat-button' 
-		            		style={{backgroundColor:this.props.qbDefButtonColor, color:this.props.qbDefButtonFontColor}} 
+		            <button className='stat-button'
+		            		style={{background:this.props.qbDefButtonColor, color:this.props.qbDefButtonFontColor}} 
 		            		onClick={ACTIONS.showQBDefense}>
 		              <p>QB</p>
 		            </button>
-		            <button className='stat-button' 
-		            		style={{backgroundColor:this.props.rbDefButtonColor, color:this.props.rbDefButtonFontColor}}  
+		            <button className='stat-button'
+		            		style={{background:this.props.rbDefButtonColor, color:this.props.rbDefButtonFontColor}}  
 		            		onClick={ACTIONS.showRBDefense}>
 		              <p>RB</p>
 		            </button>
-		            <button className='stat-button' 
-		            		style={{backgroundColor:this.props.wrDefButtonColor, color:this.props.wrDefButtonFontColor}} 
+		            <button className='stat-button'
+		            		style={{background:this.props.wrDefButtonColor, color:this.props.wrDefButtonFontColor}} 
 		            		onClick={ACTIONS.showWRDefense}>
 		              <p>WR</p>
 		            </button>
-		            <button className='stat-button' 
-		            		style={{backgroundColor:this.props.teDefButtonColor, color:this.props.teDefButtonFontColor}} 
+		            <button className='stat-button'
+		            		style={{background:this.props.teDefButtonColor, color:this.props.teDefButtonFontColor}} 
 		            		onClick={ACTIONS.showTEDefense}>
 		              <p>TE</p>
 		            </button>
 		        </div>
 		        <div className='ppg-button-row'>
-					<button className='ppg-button' 
-							style={{backgroundColor:this.props.ttlDefButtonColor, color:this.props.ttlDefButtonFontColor}} 
+					<button className='ppg-button'
+							style={{background:this.props.ttlDefButtonColor, color:this.props.ttlDefButtonFontColor}} 
 							onClick={ACTIONS.showTotalDefense}>
 					  <p>TOTAL</p>
 					</button>
-					<button className='ppg-button' 
-							style={{backgroundColor:this.props.ppgDefButtonColor, color:this.props.ppgDefButtonFontColor}} 
+					<button className='ppg-button'
+							style={{background:this.props.ppgDefButtonColor, color:this.props.ppgDefButtonFontColor}} 
 							onClick={ACTIONS.showPPGDefense}>
 					  <p>PPG</p>
 					</button>
 				</div>
 				<div className='year-button-row'>
-					<button className='yearly-button' 
-							style={{backgroundColor:this.props.csDefButtonColor, color:this.props.csDefButtonFontColor}} 
+					<button className='yearly-button'
+							style={{background:this.props.csDefButtonColor, color:this.props.csDefButtonFontColor}} 
 							onClick={ACTIONS.showCurrentSeasonDefense}>
 					  <p>Current Season</p>
 					</button>
-					<button className='yearly-button' 
-							style={{backgroundColor:this.props.lsDefButtonColor, color:this.props.lsDefButtonFontColor}} 
+					<button className='yearly-button'
+							style={{background:this.props.lsDefButtonColor, color:this.props.lsDefButtonFontColor}} 
 							onClick={ACTIONS.showLastSeasonDefense}>
 					  <p>Last Season</p>
 					</button>

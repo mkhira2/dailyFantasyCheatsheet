@@ -42,28 +42,28 @@ var Headers = React.createClass({
     return (
       	<thead>
 	        <tr>
-				<th id='widen-th' className='headercol'>PLAYER <span data-tip="Player Name"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th id='widen-th'>TEAM <span data-tip="Team Name"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>OPP <span data-tip="Opponent"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-        <th id='shrink-th'>SLATE <span data-tip="Slate"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-        <th id='shrink-th'>INJ <span data-tip="Injuries"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>DK SALARY <span data-tip="DraftKings Salary"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>FPPG <span data-tip="DraftKings Fantasy<br>Points Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-        <th id='break'>PROJ <span data-tip="Projection"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-        <th>H-VALUE <span data-tip="H-Value<br>(by Footballguys)"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-        <th>OWN <span data-tip="Ownage %<br>(by Rotowire)"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th id='break'>LINE <span data-tip="Vegas Line"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>GM TOTAL <span data-tip="Vegas Game Total"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>TM TOTAL <span data-tip="Vegas Team Total"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice' id='break'>DvQB <span data-tip="Defense Vs. QB Grade<br>(Based on Fantasy Points<br>Against Position)"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice'>P DVOA <span data-tip="Pass Defense DVOA<br>(by Fantasy Outsiders)<br><br>*2016 Rating<br>Will be update after<br>Week 4"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th id='break' className='notice'>TTL TD/G <span data-tip="Total Touchdowns<br>Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice'>P TD/G <span data-tip="Passing Touchdowns<br>Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice'>TD % <span data-tip="Touchdowns<br>Per Attempt"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice'>TTL YDS/G <span data-tip="Total Yards<br>Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice'>P RATING <span data-tip="Passer Rating"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice'>P YDS/G <span data-tip="Passing Yards<br>Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th className='notice'>YDS/ATT <span data-tip="Yards Per Attempt"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='widen-th' className='headercol'><span id='th-pointer' data-tip="Player Name">PLAYER</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='widen-th'><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Opponent">OPP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+        <th id='shrink-th'><span id='th-pointer' data-tip="Slate">SLT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+        <th id='shrink-th'><span id='th-pointer' data-tip="Injuries">INJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="DraftKings Salary">SAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="DraftKings Fantasy<br>Points Per Game">FPPG</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+        <th id='break'><span id='th-pointer' data-tip="Projection">PROJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+        <th><span id='th-pointer' data-tip="H-Value<br>(by Footballguys)">H-VAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+        <th><span id='th-pointer' data-tip="Ownage %<br>(by Rotowire)">OWN</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Vegas Game Total">G/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Vegas Team Total">T/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice' id='break'><span id='th-pointer' data-tip="Defense Vs. QB Grade<br>(Based on Fantasy Points<br>Against Position)">DvQB</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice'><span id='th-pointer' data-tip="Pass Defense DVOA<br>(by Fantasy Outsiders)<br><br>*2016 Rating<br>Will be update after<br>Week 4">DVOA</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='break' className='notice'><span id='th-pointer' data-tip="Total Touchdowns<br>Per Game">TD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice'><span id='th-pointer' data-tip="Passing Touchdowns<br>Per Game">PTD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice'><span id='th-pointer' data-tip="Touchdowns<br>Per Attempt">TD%</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice'><span id='th-pointer' data-tip="Total Yards<br>Per Game">YD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice'><span id='th-pointer' data-tip="Passer Rating">P/RAT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice'><span id='th-pointer' data-tip="Passing Yards<br>Per Game">PYD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th className='notice'><span id='th-pointer' data-tip="Yards Per Attempt">YD/A</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 	        </tr>
       	</thead>
 
@@ -156,20 +156,25 @@ var Day = React.createClass({
 var Injury = React.createClass({
   	render: function() {
     	var inj = this.props.injury
-	    var highlightGreen = {
-	      backgroundColor: "#58b670",
+      var highlightGreen = {
+	      color: "#58b670",
+        fontWeight: "bold"
 	    }
 	    var highlightLightGreen = {
-	      backgroundColor: "#add075",
+	      color: "#add075",
+        fontWeight: "bold"
 	    }
 	    var highlightLightNuetral = {
-	      backgroundColor: "#ffff99",
+	      color: "#ffff99",
+        fontWeight: "bold"
 	    }
 	    var highlightLightRed = {
-	      backgroundColor: "#f98567",
+	      color: "#f98567",
+        fontWeight: "bold"
 	    }
 	    var highlightRed = {
-	      backgroundColor: "#F75E60",
+	      color: "#F75E60",
+        fontWeight: "bold"
 	    }
 	    var highlightWhite = {
 	      color: "#fff",
