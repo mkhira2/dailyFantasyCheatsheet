@@ -43,19 +43,20 @@ var Headers = React.createClass({
 	        <tr>
 	        	<th id='widen-th' className='headercol' ><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
     				<th><span id='th-pointer' data-tip="Opponent">OPP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th id="shrink-th"><span id='th-pointer' data-tip="Slate">SLATE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="DraftKings Salary">DK SALARY</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+            <th id="shrink-th"><span id='th-pointer' data-tip="Slate">SLT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="DraftKings Salary">SAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
     				<th><span id='th-pointer' data-tip="DraftKings Fantasy<br>Points Per Game">FPPG</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
     				<th><span id='th-pointer' data-tip="Projection">PROJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="H-Value<br>(by Footballguys)">H-VALUE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+            <th><span id='th-pointer' data-tip="Fantasy Points Target differential">FP/DIF</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="H-Value<br>(by Footballguys)">H-VAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
     				<th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="Vegas Game Total">GM TOTAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="Vegas Team Total">TM TOTAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th className='notice' id='break'><span id='th-pointer' data-tip="Defensive<br>Touchdowns">DEF TDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Vegas Game Total">G/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Vegas Team Total">T/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th className='notice' id='break'><span id='th-pointer' data-tip="Defensive<br>Touchdowns">DEF/TD</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
     				<th className='notice'><span id='th-pointer' data-tip="Interceptions">INTS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
     				<th className='notice'><span id='th-pointer' data-tip="Fumble Recoveries">FUM REC</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
     				<th className='notice'><span id='th-pointer' data-tip="Sacks">SACKS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th className='notice'><span id='th-pointer' data-tip="Kick Return<br>Touchdowns">RET TDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+            <th className='notice'><span id='th-pointer' data-tip="Kick Return<br>Touchdowns">RET/TD</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 	        </tr>
       	</thead>
     )
@@ -75,6 +76,7 @@ var Body = React.createClass({
                 <Salary salary={numeral(player.salary).format('0,000')}/>
                 <FPPG fppg={numeral(player.fppg).format('0.00')}/>
                 <Proj proj={numeral(player.proj).format('0.00')}/>
+                <td>{player.tar}</td>
                 <HValue hValue={numeral(player.hValue).format('0.00')}/>
                 <Line line={player.line}/>
                 <GameTotal gameTotal={player.gameTotal}/>
@@ -473,7 +475,7 @@ var Line = React.createClass({
 	      backgroundColor: "#F75E60",
 	    }
 
-	    if (num <= -6) {
+      if (num <= -6) {
 	    	return (
 		        <td style={highlightGreen} id='break'>
 		          {this.props.line}
@@ -494,7 +496,7 @@ var Line = React.createClass({
 		        </td>
 	      	)
 	    }
-	    if (num <= 6 && num > 2) {
+	    if (num <= 6 && num >= 2) {
 	      	return (
 		        <td style={highlightLightRed} id='break'>
 		          {this.props.line}

@@ -50,6 +50,7 @@ var Headers = React.createClass({
 				<th><span id='th-pointer' data-tip="DraftKings Salary">SAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 				<th><span id='th-pointer' data-tip="DraftKings Fantasy<br>Points Per Game">FPPG</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
         <th id='break'><span id='th-pointer' data-tip="Projection">PROJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+        <th><span id='th-pointer' data-tip="Fantasy Points Target differential">FP/DIF</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
         <th><span id='th-pointer' data-tip="H-Value<br>(by Footballguys)">H-VAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
         <th><span id='th-pointer' data-tip="Ownage %<br>(by Rotowire)">OWN</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 				<th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
@@ -87,7 +88,8 @@ var Body = React.createClass({
         <Injury injury={player.injury}/>
         <Salary salary={numeral(player.salary).format('0,000')}/>
 				<FPPG fppg={numeral(player.fppg).format('0.00')}/>
-        <Proj proj={numeral(player.proj).format('0.00')}/>
+        <Proj proj={numeral(player.proj).format('0.0')}/>
+        <td>{player.tar}</td>
         <HValue hValue={numeral(player.hValue).format('0.00')}/>
         <Own own={numeral(player.own).format('0.00')}/>
 				<Line line={player.line}/>

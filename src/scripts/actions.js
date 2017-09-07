@@ -37,19 +37,19 @@ var ACTIONS = {
 	qbAnalyzer: function(qbs, arr2, arr3, proj) {
 	    var newArr = []
       var dvoaResults = this.sortdvoa()
-      var yardsCounter = 0
+      var qbDef = this.avgFtsyPtsAgainst(arr3)
 	    for (var i = 0; i < qbs.length; i++) {
 	        var newObj = {}
 	        newObj["id"] = qbs[i].id
 	        newObj["player"] = qbs[i].player
 	        newObj["team"] = this.getTeamName(qbs[i].team)
+          newObj["teamAbb"] = qbs[i].team
 	        newObj["opp"] = qbs[i].opp
 	        if (qbs[i].opp === "N\/A") {
 	        	newObj["opp"] = "Bye Week"
 	        } else {
 	        	newObj["opp"] = qbs[i].opp
 	        }
-	        // newObj["salary"] = qbs[i].salary
 	        newObj["fppg"] = qbs[i].fpts/qbs[i].gp
 	        if (newObj["opp"].charAt(0) === "@") {
 	        	newObj["ha"] = "Away"
@@ -76,21 +76,18 @@ var ACTIONS = {
 
 	        for (var j = 0; j < arr3.length;j++) {
 	            if (qbs[i].opp.substr(qbs[i].opp.length - 3) === arr3[j].abbr) {
-                yardsCounter += arr3[j].fpts/arr3[j].gp
-                var fanPassAg = yardsCounter/qbs.length // Console Log and enter the total of this variable below
-                // console.log("avg: ", fanPassAg)
 	            	newObj["paydsag"] = arr3[j].payds/arr3[j].att
 	            	newObj["patdsag"] = arr3[j].patd/arr3[j].att
 	                var x = arr3[j].fpts/arr3[j].gp
-	                if ((17.05 - x) <= -2) {
+	                if ((qbDef - x) <= -2) {
 	                	newObj["matchup"] = "A"
-	                } else if ((17.05 - x) <= -1 && (17.05 - x) > -2) {
+	                } else if ((qbDef - x) <= -1 && (qbDef - x) > -2) {
 	                	newObj["matchup"] = "B"
-	                } else if ((17.05 - x) < 1 && (17.05 - x) > -1)  {
+	                } else if ((qbDef - x) < 1 && (qbDef - x) > -1)  {
 	                	newObj["matchup"] = "C"
-	                } else if ((17.05 - x) < 2 && (17.05 - x) >= 1)  {
+	                } else if ((qbDef - x) < 2 && (qbDef - x) >= 1)  {
 	                	newObj["matchup"] = "D"
-	                } else if ((17.05 - x) >= 2)  {
+	                } else if ((qbDef - x) >= 2)  {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
@@ -105,11 +102,15 @@ var ACTIONS = {
 	        }
           for (var j = 0; j < proj.length;j++) {
              if (qbs[i].player === proj[j].name) {
+                  let salary = proj[j].salary
+                  let sal = salary.substring(1, salary.length)
+                  let sala = parseFloat(sal.replace(/,/g, ''))
 	                newObj["proj"] = proj[j].proj
                   newObj["injury"] = proj[j].injury
                   newObj["own"] = proj[j].own
                   newObj["salary"] = proj[j].salary
                   newObj["hValue"] = this.hValue(proj[j].proj, proj[j].salary)
+                  newObj["tar"] = (Number(proj[j].proj) - (16.5 + (sala * 0.00087))).toFixed(2)
 	            }
 	        }
 	        newArr.push(newObj)
@@ -138,13 +139,14 @@ var ACTIONS = {
 	//Create RB Cheatsheet Object
 	rbAnalyzer: function(rbs, arr2, arr3, proj) {
 	    var newArr = []
-      var yardsCounter = 0
       var dvoaResults = this.sortdvoa()
+      var rbDef = this.avgFtsyPtsAgainst(arr3)
 	    for (var i = 0; i < rbs.length; i++) {
 	        var newObj = {}
 	        newObj["id"] = rbs[i].id
 	        newObj["player"] = rbs[i].player
 	        newObj["team"] = this.getTeamName(rbs[i].team)
+          newObj["teamAbb"] = rbs[i].team
 	        newObj["opp"] = rbs[i].opp
 	        if (rbs[i].opp === "N\/A") {
 	        	newObj["opp"] = "Bye Week"
@@ -179,19 +181,16 @@ var ACTIONS = {
 	        }
 	        for (var j = 0; j < arr3.length;j++) {
 	            if (rbs[i].opp.substr(rbs[i].opp.length - 3) === arr3[j].abbr) {
-                  yardsCounter += arr3[j].fpts/arr3[j].gp
-                  var fanRushAg = yardsCounter/rbs.length // Console Log and enter the total of this variable below
-                  // console.log("avg: ", fanRushAg)
 	                var x = arr3[j].fpts/arr3[j].gp
-	                if ((21.27 - x) <= -2) {
+	                if ((rbDef - x) <= -2) {
 	                	newObj["matchup"] = "A"
-	                } else if ((21.27 - x) <= -1 && (21.27 - x) > -2) {
+	                } else if ((rbDef - x) <= -1 && (rbDef - x) > -2) {
 	                	newObj["matchup"] = "B"
-	                } else if ((21.27 - x) < 1 && (21.27 - x) > -1)  {
+	                } else if ((rbDef - x) < 1 && (rbDef - x) > -1)  {
 	                	newObj["matchup"] = "C"
-	                } else if ((21.27 - x) < 2 && (21.27 - x) >= 1)  {
+	                } else if ((rbDef - x) < 2 && (rbDef - x) >= 1)  {
 	                	newObj["matchup"] = "D"
-	                } else if ((21.27 - x) >= 2)  {
+	                } else if ((rbDef - x) >= 2)  {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
@@ -206,11 +205,15 @@ var ACTIONS = {
 	        }
           for (var j = 0; j < proj.length;j++) {
              if (rbs[i].player === proj[j].name) {
+                  let salary = proj[j].salary
+                  let sal = salary.substring(1, salary.length)
+                  let sala = parseFloat(sal.replace(/,/g, ''))
 	                newObj["proj"] = proj[j].proj
                   newObj["injury"] = proj[j].injury
                   newObj["own"] = proj[j].own
                   newObj["salary"] = proj[j].salary
                   newObj["hValue"] = this.hValue(proj[j].proj, proj[j].salary)
+                  newObj["tar"] = (Number(proj[j].proj) - (10.1 + (sala * 0.00135))).toFixed(2)
 	            }
 	        }
 	        newArr.push(newObj)
@@ -239,8 +242,8 @@ var ACTIONS = {
 	//Create WR Cheatsheet Object
 	wrAnalyzer: function(wrs, arr2, arr3, proj) {
 	    var newArr = []
-      var yardsCounter = 0
       var dvoaResults = this.sortdvoa()
+      var wrDef = this.avgFtsyPtsAgainst(arr3)
 	    for (var i = 0; i < wrs.length; i++) {
 	        var newObj = {}
 	        newObj["id"] = wrs[i].id
@@ -282,19 +285,16 @@ var ACTIONS = {
 	        }
 	        for (var j = 0; j < arr3.length;j++) {
 	            if (wrs[i].opp.substr(wrs[i].opp.length - 3) === arr3[j].abbr) {
-                  yardsCounter += arr3[j].fpts/arr3[j].gp
-                  var fanRecAg = yardsCounter/wrs.length // Console Log and enter the total of this variable below
-                  // console.log("fanRecAg", fanRecAg);
 	                var x = arr3[j].fpts/arr3[j].gp
-	                if ((35.04 - x) <= -2) {
+	                if ((wrDef - x) <= -2) {
 	                	newObj["matchup"] = "A"
-	                } else if ((35.04 - x) <= -1 && (35.04 - x) > -2) {
+	                } else if ((wrDef - x) <= -1 && (wrDef - x) > -2) {
 	                	newObj["matchup"] = "B"
-	                } else if ((35.04 - x) < 1 && (35.04 - x) > -1)  {
+	                } else if ((wrDef - x) < 1 && (wrDef - x) > -1)  {
 	                	newObj["matchup"] = "C"
-	                } else if ((35.04 - x) < 2 && (35.04 - x) >= 1)  {
+	                } else if ((wrDef - x) < 2 && (wrDef - x) >= 1)  {
 	                	newObj["matchup"] = "D"
-	                } else if ((35.04 - x) >= 2)  {
+	                } else if ((wrDef - x) >= 2)  {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
@@ -309,11 +309,15 @@ var ACTIONS = {
 	        }
           for (var j = 0; j < proj.length;j++) {
              if (wrs[i].player === proj[j].name) {
+                  let salary = proj[j].salary
+                  let sal = salary.substring(1, salary.length)
+                  let sala = parseFloat(sal.replace(/,/g, ''))
 	                newObj["proj"] = proj[j].proj
                   newObj["injury"] = proj[j].injury
                   newObj["own"] = proj[j].own
                   newObj["salary"] = proj[j].salary
                   newObj["hValue"] = this.hValue(proj[j].proj, proj[j].salary)
+                  newObj["tar"] = (Number(proj[j].proj) - (10.6 + (sala * 0.00116))).toFixed(2)
 	            }
 	        }
           newArr.push(newObj)
@@ -342,8 +346,8 @@ var ACTIONS = {
 	//Create TE Cheatsheet Object
 	teAnalyzer: function(tes, arr2, arr3, proj) {
 	    var newArr = []
-      var yardsCounter = 0
       var dvoaResults = this.sortdvoa()
+      var teDef = this.avgFtsyPtsAgainst(arr3)
 	    for (var i = 0; i < tes.length; i++) {
 	        var newObj = {}
 	        newObj["id"] = tes[i].id
@@ -385,19 +389,16 @@ var ACTIONS = {
 	        }
 	        for (var j = 0; j < arr3.length;j++) {
 	            if (tes[i].opp.substr(tes[i].opp.length - 3) === arr3[j].abbr) {
-                  yardsCounter += arr3[j].fpts/arr3[j].gp
-                  var fanTeAg = yardsCounter/tes.length // Console Log and enter the total of this variable below
-                  // console.log("fanTeAg", fanTeAg);
 	                var x = arr3[j].fpts/arr3[j].gp
-	                if ((12.21 - x) <= -2) {
+	                if ((teDef - x) <= -2) {
 	                	newObj["matchup"] = "A"
-	                } else if ((12.21 - x) <= -1 && (12.21 - x) > -2) {
+	                } else if ((teDef - x) <= -1 && (teDef - x) > -2) {
 	                	newObj["matchup"] = "B"
-	                } else if ((12.21 - x) < 1 && (12.21 - x) > -1)  {
+	                } else if ((teDef - x) < 1 && (teDef - x) > -1)  {
 	                	newObj["matchup"] = "C"
-	                } else if ((12.21 - x) < 2 && (12.21 - x) >= 1)  {
+	                } else if ((teDef - x) < 2 && (teDef - x) >= 1)  {
 	                	newObj["matchup"] = "D"
-	                } else if ((12.21 - x) >= 2)  {
+	                } else if ((teDef - x) >= 2)  {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
@@ -412,11 +413,15 @@ var ACTIONS = {
           }
           for (var j = 0; j < proj.length;j++) {
              if (tes[i].player === proj[j].name && tes[i].pos === proj[j].position) {
+                 let salary = proj[j].salary
+                 let sal = salary.substring(1, salary.length)
+                 let sala = parseFloat(sal.replace(/,/g, ''))
 	                newObj["proj"] = proj[j].proj
                   newObj["injury"] = proj[j].injury
                   newObj["own"] = proj[j].own
                   newObj["salary"] = proj[j].salary
                   newObj["hValue"] = this.hValue(proj[j].proj, proj[j].salary)
+                  newObj["tar"] = (Number(proj[j].proj) - (8.1 + (sala * 0.00130))).toFixed(2)
 	            }
 	        }
           newArr.push(newObj)
@@ -481,11 +486,15 @@ var ACTIONS = {
 	        }
           for (var j = 0; j < proj.length;j++) {
              if (df[i].player === proj[j].name) {
+               let salary = proj[j].salary
+               let sal = salary.substring(1, salary.length)
+               let sala = parseFloat(sal.replace(/,/g, ''))
 	                newObj["proj"] = proj[j].proj
                   newObj["injury"] = proj[j].injury
                   newObj["own"] = proj[j].own
                   newObj["salary"] = proj[j].salary
                   newObj["hValue"] = this.hValue(proj[j].proj, proj[j].salary)
+                  newObj["tar"] = (Number(proj[j].proj) - (3.6 + (sala * 0.00215))).toFixed(2)
 	            }
 	        }
           newObj["deftd"] = df[i].deftd
@@ -603,7 +612,7 @@ var ACTIONS = {
       var injury = qb[i].injury
       var salary = Number(currency.replace(/[^0-9\.-]+/g,""));
       var proj = parseInt(qb[i].proj)
-      if (qb[i].teamTotal >= 26 && line <= 0 && slate !== 'Thu' && slate !== 'Mon' && injury !== 'PUP' && injury !== 'SSPD') {
+      if (qb[i].teamTotal >= 24 && line <= 0 && slate !== 'Thu' && slate !== 'Mon' && injury !== 'PUP' && injury !== 'SSPD') {
         qbPicksArr.push(qb[i])
       }
     }
@@ -619,7 +628,7 @@ var ACTIONS = {
       var injury = rb[i].injury
       var salary = Number(currency.replace(/[^0-9\.-]+/g,""));
       var proj = parseInt(rb[i].proj)
-      if (line <= -3 && slate !== 'Thu' && slate !== 'Mon' && injury !== 'PUP' && injury !== 'SSPD' && proj >= 8 && rb[i].ha === 'Home') {
+      if (line <= 0 && slate !== 'Thu' && slate !== 'Mon' && injury !== 'PUP' && injury !== 'SSPD' && proj >= 9) {
         rbPicksArr.push(rb[i])
       }
     }
@@ -698,6 +707,17 @@ var ACTIONS = {
 	//============================================//
 	//-------------- MISC ACTIONS ----------------//
 	//============================================//
+
+  //Return the avg fantasy points per position
+  avgFtsyPtsAgainst: function(def) {
+    let yrdsCounter = 0
+    for (var i = 0; i < def.length; i++) {
+      let yrdsAvg = Number(def[i].fpts)/Number(def[i].gp)
+      yrdsCounter += yrdsAvg
+    }
+    let result = yrdsCounter/def.length
+    return result
+  },
 
   //Return only the first 32 results of dvoa results
   sortdvoa: function() {

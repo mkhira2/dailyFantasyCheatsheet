@@ -40,12 +40,20 @@ var Headers = React.createClass({
 		return (
 			<thead className='stat-container'>
         <tr>
-          <th id='widen-th' className='headercol'>PLAYER <span data-tip="Player Name"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-          <th id='widen-th'>TEAM <span data-tip="Team Name"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-          <th>OPP <span data-tip="Opponent"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-          <th>DK SALARY <span data-tip="DraftKings Salary"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-          <th>PROJ <span data-tip="DraftKings Salary"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-          <th>H-VALUE <span data-tip="DraftKings Fantasy<br>Points Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th id='widen-th' className='headercol'><span id='th-pointer' data-tip="Player Name">PLAYER</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th id='widen-th'><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Opponent">OPP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th id='shrink-th'><span id='th-pointer' data-tip="Injuries">INJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="DraftKings Salary">SAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th id='break'><span id='th-pointer' data-tip="Projection">PROJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th><span id='th-pointer' data-tip="Ownage %<br>(by Rotowire)">OWN</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th><span id='th-pointer' data-tip="Vegas Team Total">T/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th className='notice' id='break'><span id='th-pointer' data-tip="Defense Vs. QB Grade<br>(Based on Fantasy Points<br>Against Position)">DvQB</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th className='notice'><span id='th-pointer' data-tip="Pass Defense DVOA<br>(by Fantasy Outsiders)<br><br>*2016 Rating<br>Will be update after<br>Week 4">DVOA</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th className='notice' id='break'><span id='th-pointer' data-tip="Total Yards<br>Per Game">YD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th className='notice'><span id='th-pointer' data-tip="Total Touchdowns<br>Per Game">TD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th className='notice'><span id='th-pointer' data-tip="Marketshare %<br>for Team Touches">TCH/MK</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
         </tr>
 	    </thead>
 	  )
@@ -62,11 +70,19 @@ var Body = React.createClass({
             return (
               <tr key={i}>
                 <td id='align-left' className='firstcol'>{player.player}</td>
-                <td id='align-left'>{player.team}</td>
+                <td>{player.teamAbb}</td>
                 <td>{player.opp}</td>
+                <td>{player.injury}</td>
                 <td>{player.salary}</td>
                 <td>{player.proj}</td>
+                <td>{numeral(player.own).format('0.0')}%</td>
+                <td>{(player.line)}</td>
+                <td>{(player.teamTotal)}</td>
+                <td>{(player.matchup)}</td>
                 <td>{(player.dvoa_rush_rank)}</td>
+                <td>{numeral(player.ttlydspg).format('0.00')}</td>
+        				<td>{numeral(player.ttltdpg).format('0.00')}</td>
+        				<td>{numeral(player.touchMktShare*100).format('0.0')}</td>
               </tr>
             )
          })}
