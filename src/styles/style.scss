@@ -749,6 +749,7 @@ button {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+    position: relative;
 
 	h4 {
 		padding: 16px 80px;
@@ -759,6 +760,18 @@ button {
 		margin: 0;
 		text-shadow: 1px 1px 2px #000;
 	}
+
+  .gem {
+    position: absolute;
+    top:5px;
+    right:0;
+    height: 20px;
+    width: 20px;
+  }
+
+  .gem:hover {
+    background: rgba(0,0,0,0.1);
+  }
 }
 
 .section-overlay {
@@ -1354,6 +1367,12 @@ button {
 
   .last-updated {
   	color: #ccc;
+  	margin: 0;
+  	font-size: 12px;
+  }
+
+  .last-updated-date {
+  	color: #bbb;
   	margin: 0;
   	font-size: 12px;
   }

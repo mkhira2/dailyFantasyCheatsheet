@@ -249,6 +249,7 @@ var ACTIONS = {
 	        newObj["id"] = wrs[i].id
 	        newObj["player"] = wrs[i].player
 	        newObj["team"] = this.getTeamName(wrs[i].team)
+          newObj["teamAbb"] = wrs[i].team
 	        newObj["opp"] = wrs[i].opp
 	        if (wrs[i].opp === "N\/A") {
 	        	newObj["opp"] = "Bye Week"
@@ -353,6 +354,7 @@ var ACTIONS = {
 	        newObj["id"] = tes[i].id
 	        newObj["player"] = tes[i].player
 	        newObj["team"] = this.getTeamName(tes[i].team)
+          newObj["teamAbb"] = tes[i].team
 	        newObj["opp"] = tes[i].opp
 	        if (tes[i].opp === "N\/A") {
 	        	newObj["opp"] = "Bye Week"
@@ -455,6 +457,7 @@ var ACTIONS = {
 	        newObj["id"] = df[i].id
 	        newObj["player"] = df[i].player
 	        newObj["team"] = df[i].team
+          newObj["teamAbb"] = df[i].team
 	        newObj["opp"] = df[i].opp
 	        if (df[i].opp === "N\/A") {
 	        	newObj["opp"] = "Bye Week"
@@ -639,8 +642,9 @@ var ACTIONS = {
     var wrPicksArr = []
     for (var i = 0; i < wr.length; i++) {
       var line = parseInt(wr[i].line)
-      var salary = parseInt(wr[i].salary)
-      if (wr[i].teamTotal >= 24 && wr[i].ha === 'Home' && line < 0 && salary > 6000 && salary < 8000) {
+      var currency = wr[i].salary
+      var salary = Number(currency.replace(/[^0-9\.-]+/g,""));
+      if (wr[i].teamTotal >= 24 && wr[i].tarpg >= 6.6)  {
         wrPicksArr.push(wr[i])
       }
     }
@@ -651,8 +655,9 @@ var ACTIONS = {
     var tePicksArr = []
     for (var i = 0; i < te.length; i++) {
       var line = parseInt(te[i].line)
-      var salary = parseInt(te[i].salary)
-      if (te[i].teamTotal >= 24 && te[i].ha === 'Home' && line < 0 && salary > 5000 && salary < 8000) {
+      var currency = te[i].salary
+      var salary = Number(currency.replace(/[^0-9\.-]+/g,""));
+      if (salary > 3000 && salary < 4900 && te[i].tarpg >= 4 && te[i].rztarpg >= .75) {
         tePicksArr.push(te[i])
       }
     }
@@ -663,8 +668,9 @@ var ACTIONS = {
     var dfPicksArr = []
     for (var i = 0; i < df.length; i++) {
       var line = parseInt(df[i].line)
-      var salary = parseInt(df[i].salary)
-      if (df[i].teamTotal >= 24 && df[i].ha === 'Home' && line < 0 && salary > 5000 && salary < 8000) {
+      var currency = df[i].salary
+      var salary = Number(currency.replace(/[^0-9\.-]+/g,""));
+      if (line < 0 && salary > 3100 && salary < 3300) {
         dfPicksArr.push(df[i])
       }
     }
@@ -691,12 +697,12 @@ var ACTIONS = {
     plannerObj.tenPercent = (tenPercent).toFixed(2)
     plannerObj.twentyPercent = (twentyPercent).toFixed(2)
     plannerObj.thirtyPercent = (thirtyPercent).toFixed(2)
-    plannerObj.casualTwentyPerc = (tenPercent*0.20).toFixed(2)
-    plannerObj.casualEightyPerc = (tenPercent*0.80).toFixed(2)
-    plannerObj.modThirtyPerc = (tenPercent*0.30).toFixed(2)
-    plannerObj.modSeventyPerc = (tenPercent*0.70).toFixed(2)
-    plannerObj.aggFortyPerc = (tenPercent*0.40).toFixed(2)
-    plannerObj.aggSixtyPerc = (tenPercent*0.60).toFixed(2)
+    plannerObj.casualTwentyPerc = (twentyPercent*0.20).toFixed(2)
+    plannerObj.casualEightyPerc = (twentyPercent*0.80).toFixed(2)
+    plannerObj.modThirtyPerc = (twentyPercent*0.30).toFixed(2)
+    plannerObj.modSeventyPerc = (twentyPercent*0.70).toFixed(2)
+    plannerObj.aggFortyPerc = (twentyPercent*0.40).toFixed(2)
+    plannerObj.aggSixtyPerc = (twentyPercent*0.60).toFixed(2)
     STORE.set({
       plannerError: false,
 			bankroll: plannerObj

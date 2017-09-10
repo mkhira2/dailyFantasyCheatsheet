@@ -37,14 +37,18 @@ var Headers = React.createClass({
 		return (
 			<thead className='stat-container'>
         <tr>
-      <th id='widen-th' className='headercol'>PLAYER <span data-tip="Player Name"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th id='widen-th'>TEAM <span data-tip="Team Name"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th>OPP <span data-tip="Opponent"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th>DK SALARY <span data-tip="DraftKings Salary"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th>FPPG <span data-tip="DraftKings Fantasy<br>Points Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th>PROJ <span data-tip="Projection"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th>FPPG <span data-tip="DraftKings Fantasy<br>Points Per Game"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th>PROJ <span data-tip="Projection"><i className="fa fa-info-circle" aria-hidden="true"></i></span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th id='widen-th' className='headercol'><span id='th-pointer' data-tip="Player Name">PLAYER</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th id='widen-th'><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Opponent">OPP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="DraftKings Salary">SAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th id='break'><span id='th-pointer' data-tip="Projection">PROJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th><span id='th-pointer' data-tip="Vegas Team Total">T/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th className='notice' id='break'><span id='th-pointer' data-tip="Defensive<br>Touchdowns">DEF/TD</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th className='notice'><span id='th-pointer' data-tip="Interceptions">INTS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th className='notice'><span id='th-pointer' data-tip="Fumble Recoveries">FUM REC</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th className='notice'><span id='th-pointer' data-tip="Sacks">SACKS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th className='notice'><span id='th-pointer' data-tip="Kick Return<br>Touchdowns">RET/TD</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
         </tr>
 	    </thead>
 	  )
@@ -59,12 +63,17 @@ var Body = React.createClass({
             return (
               <tr key={i}>
                 <td id='align-left' className='firstcol'>{player.player}</td>
-                <td id='align-left'>{player.team}</td>
+                <td>{player.teamAbb}</td>
                 <td>{player.opp}</td>
                 <td>{player.salary}</td>
-                <td>{player.fppg}</td>
-                <td>{player.line}</td>
-                <td>{player.gameTotal}</td>
+                <td>{player.proj}</td>
+                <td>{(player.line)}</td>
+                <td>{(player.teamTotal)}</td>
+                <td>{numeral(player.deftd).format('0')}</td>
+        				<td>{numeral(player.int).format('0')}</td>
+        				<td>{numeral(player.fumr).format('0')}</td>
+        				<td>{numeral(player.sack).format('0')}</td>
+                <td>{numeral(player.rettd).format('0')}</td>
               </tr>
             )
          })}

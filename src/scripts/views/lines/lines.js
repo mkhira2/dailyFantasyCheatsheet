@@ -8,7 +8,7 @@ import Loading from '../components/loading'
 
 import LineData from './components/lineData'
 
-var lines = require('../../data.json').lines
+var lines = require('../../../../data/lines.json')
 
 var Lines = React.createClass({
 	componentWillMount: function() {

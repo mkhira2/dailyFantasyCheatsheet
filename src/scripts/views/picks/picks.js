@@ -13,9 +13,9 @@ var rbDefenseLastSeason = require('../../data.json').rbDefenseLastSeason
 var wrDefenseLastSeason = require('../../data.json').wrDefenseLastSeason
 var teDefenseLastSeason = require('../../data.json').teDefenseLastSeason
 
-var lines = require('../../data.json').lines
+var lines = require('../../../../data/lines.json')
 
-var proj = require('../../../../data/player_projections1.json')
+var proj = require('../../../../data/player_projections_w1.json')
 
 import Header from '../components/header'
 import Navigation from '../components/navigation'
@@ -26,6 +26,8 @@ import RBpicks from './position/rbPicks'
 import WRpicks from './position/wrPicks'
 import TEpicks from './position/tePicks'
 import DFpicks from './position/dfPicks'
+
+import CheatsheetModal from './../components/cheatsheetModal'
 
 var Picks = React.createClass({
 	componentWillMount: function() {
@@ -47,6 +49,12 @@ var Picks = React.createClass({
 	    return STORE.data
 	},
 
+  showPicksModal: function(){
+  	STORE.set({
+			infoModal: true
+		})
+  },
+
 	render: function() {
 		return (
 			<div className='statistics-container'>
@@ -55,10 +63,12 @@ var Picks = React.createClass({
 					   <Navigation />
              <div className='data-container'>
                <div className='section-header'>
+                 <div className="gem" onClick={this.showPicksModal}></div>
                  <div className='section-overlay'>
                    <div className='section-info'>
-                     <h4>Quick Picks &nbsp;<i className="fa fa-info-circle" aria-hidden="true" onClick={this.showPicksModal}></i></h4>
+                     <h4>Quick Picks &nbsp;<i className="fa fa-info-circle" aria-hidden="true" ></i></h4>
                    </div>
+                   {this.state.infoModal ? <CheatsheetModal /> : null }
                  </div>
                </div>
                <div className='stat-data-wrapper'>

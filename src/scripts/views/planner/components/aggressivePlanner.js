@@ -28,7 +28,7 @@ var AggressivePlanner = React.createClass({
             </div>
             <div className="weekly-bankroll">
               <p>Weekly Bankroll</p>
-              {bankroll.tenPercent ? <p className="money">${bankroll.tenPercent}</p> : <p className="money">$0 </p>}
+              {bankroll.twentyPercent ? <p className="money">${bankroll.twentyPercent}</p> : <p className="money">$0 </p>}
             </div>
           </div>
           <AggressiveCalc bankroll={this.props.bankroll} />
@@ -62,13 +62,13 @@ var AggressiveCalc = React.createClass({
                 <td>Cash Games</td>
                 <td>H2H, 50/50</td>
                 <td>60%</td>
-                  {bankroll.tenPercent ? <td>${bankroll.aggSixtyPerc}</td> : <td>$ -- </td>}
+                  {bankroll.twentyPercent ? <td>${bankroll.aggSixtyPerc}</td> : <td>$ -- </td>}
               </tr>
               <tr>
                 <td>GPP Games</td>
                 <td>Tournaments</td>
                 <td>40%</td>
-                  {bankroll.tenPercent ? <td>${bankroll.aggFortyPerc}</td> : <td>$ -- </td>}
+                  {bankroll.twentyPercent ? <td>${bankroll.aggFortyPerc}</td> : <td>$ -- </td>}
               </tr>
             </tbody>
           </table>

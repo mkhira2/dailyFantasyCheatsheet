@@ -24,9 +24,9 @@ var rbDefenseLastSeason = require('../../data.json').rbDefenseLastSeason
 var wrDefenseLastSeason = require('../../data.json').wrDefenseLastSeason
 var teDefenseLastSeason = require('../../data.json').teDefenseLastSeason
 
-var lines = require('../../data.json').lines
+var lines = require('../../../../data/lines.json')
 
-var proj = require('../../../../data/player_projections1.json')
+var proj = require('../../../../data/player_projections_w1.json')
 
 import CheatsheetModal from './../components/cheatsheetModal'
 

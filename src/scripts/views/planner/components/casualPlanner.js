@@ -28,7 +28,7 @@ var CasualPlanner = React.createClass({
             </div>
             <div className="weekly-bankroll">
               <p>Weekly Bankroll</p>
-              {bankroll.tenPercent ? <p className="money">${bankroll.tenPercent}</p> : <p className="money">$0 </p>}
+              {bankroll.twentyPercent ? <p className="money">${bankroll.twentyPercent}</p> : <p className="money">$0 </p>}
             </div>
           </div>
           <CasualCalc bankroll={this.props.bankroll} />
@@ -62,13 +62,13 @@ var CasualCalc = React.createClass({
                 <td>Cash Games</td>
                 <td>H2H, 50/50</td>
                 <td>80%</td>
-                  {bankroll.tenPercent ? <td>${bankroll.casualEightyPerc}</td> : <td>$ -- </td>}
+                  {bankroll.twentyPercent ? <td>${bankroll.casualEightyPerc}</td> : <td>$ -- </td>}
               </tr>
               <tr>
                 <td>GPP Games</td>
                 <td>Tournaments</td>
                 <td>20%</td>
-                  {bankroll.tenPercent ? <td>${bankroll.casualTwentyPerc}</td> : <td>$ -- </td>}
+                  {bankroll.twentyPercent ? <td>${bankroll.casualTwentyPerc}</td> : <td>$ -- </td>}
               </tr>
             </tbody>
           </table>
