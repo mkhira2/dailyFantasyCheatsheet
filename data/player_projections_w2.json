@@ -1,0 +1,3562 @@
+[
+    {
+        "name": "Tom Brady",
+        "injury": "",
+        "position": "QB",
+        "team": "NE",
+        "opp": "@NO",
+        "own": "14.74",
+        "salary": "$7,900",
+        "proj": "27.8"
+    },
+    {
+        "name": "Drew Brees",
+        "injury": "",
+        "position": "QB",
+        "team": "NO",
+        "opp": "NE",
+        "own": "5.55",
+        "salary": "$7,700",
+        "proj": "24.6"
+    },
+    {
+        "name": "Jameis Winston",
+        "injury": "",
+        "position": "QB",
+        "team": "TB",
+        "opp": "CHI",
+        "own": "5.08",
+        "salary": "$6,300",
+        "proj": "24.5"
+    },
+    {
+        "name": "Matt Ryan",
+        "injury": "",
+        "position": "QB",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "11.42",
+        "salary": "$7,500",
+        "proj": "24.4"
+    },
+    {
+        "name": "Julio Jones",
+        "injury": "",
+        "position": "WR",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "17.65",
+        "salary": "$9,200",
+        "proj": "23.9"
+    },
+    {
+        "name": "Derek Carr",
+        "injury": "",
+        "position": "QB",
+        "team": "OAK",
+        "opp": "NYJ",
+        "own": "5.17",
+        "salary": "$7,200",
+        "proj": "23.8"
+    },
+    {
+        "name": "Carson Wentz",
+        "injury": "",
+        "position": "QB",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "2.25",
+        "salary": "$5,900",
+        "proj": "23.8"
+    },
+    {
+        "name": "Aaron Rodgers",
+        "injury": "",
+        "position": "QB",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "8.16",
+        "salary": "$7,400",
+        "proj": "23.7"
+    },
+    {
+        "name": "Russell Wilson",
+        "injury": "",
+        "position": "QB",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "6.33",
+        "salary": "$6,800",
+        "proj": "20.7"
+    },
+    {
+        "name": "Brandin Cooks",
+        "injury": "",
+        "position": "WR",
+        "team": "NE",
+        "opp": "@NO",
+        "own": "16.24",
+        "salary": "$8,200",
+        "proj": "19.7"
+    },
+    {
+        "name": "Cam Newton",
+        "injury": "",
+        "position": "QB",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "6.05",
+        "salary": "$6,500",
+        "proj": "19.7"
+    },
+    {
+        "name": "Antonio Brown",
+        "injury": "",
+        "position": "WR",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "7.11",
+        "salary": "$9,400",
+        "proj": "19.7"
+    },
+    {
+        "name": "Marcus Mariota",
+        "injury": "",
+        "position": "QB",
+        "team": "TEN",
+        "opp": "@JAX",
+        "own": "2",
+        "salary": "$6,400",
+        "proj": "19.6"
+    },
+    {
+        "name": "Le'Veon Bell",
+        "injury": "",
+        "position": "RB",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "8.97",
+        "salary": "$9,800",
+        "proj": "19.5"
+    },
+    {
+        "name": "Jay Cutler",
+        "injury": "",
+        "position": "QB",
+        "team": "MIA",
+        "opp": "@LAC",
+        "own": "2.32",
+        "salary": "$5,400",
+        "proj": "19"
+    },
+    {
+        "name": "Carson Palmer",
+        "injury": "",
+        "position": "QB",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "4.28",
+        "salary": "$6,000",
+        "proj": "18.9"
+    },
+    {
+        "name": "Ezekiel Elliott",
+        "injury": "",
+        "position": "RB",
+        "team": "DAL",
+        "opp": "@DEN",
+        "own": "7.89",
+        "salary": "$7,800",
+        "proj": "18.7"
+    },
+    {
+        "name": "Amari Cooper",
+        "injury": "",
+        "position": "WR",
+        "team": "OAK",
+        "opp": "NYJ",
+        "own": "6.35",
+        "salary": "$8,100",
+        "proj": "18.6"
+    },
+    {
+        "name": "Ben Roethlisberger",
+        "injury": "",
+        "position": "QB",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "2.95",
+        "salary": "$6,700",
+        "proj": "18.6"
+    },
+    {
+        "name": "Jordy Nelson",
+        "injury": "",
+        "position": "WR",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "7.8",
+        "salary": "$7,900",
+        "proj": "18.5"
+    },
+    {
+        "name": "Philip Rivers",
+        "injury": "",
+        "position": "QB",
+        "team": "LAC",
+        "opp": "MIA",
+        "own": "3.77",
+        "salary": "$5,800",
+        "proj": "18.5"
+    },
+    {
+        "name": "Michael Thomas",
+        "injury": "",
+        "position": "WR",
+        "team": "NO",
+        "opp": "NE",
+        "own": "5.91",
+        "salary": "$7,500",
+        "proj": "18.1"
+    },
+    {
+        "name": "Mike Evans",
+        "injury": "",
+        "position": "WR",
+        "team": "TB",
+        "opp": "CHI",
+        "own": "7.77",
+        "salary": "$7,700",
+        "proj": "17.9"
+    },
+    {
+        "name": "LeSean McCoy",
+        "injury": "",
+        "position": "RB",
+        "team": "BUF",
+        "opp": "@CAR",
+        "own": "3.86",
+        "salary": "$8,600",
+        "proj": "17.6"
+    },
+    {
+        "name": "A.J. Green",
+        "injury": "",
+        "position": "WR",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "0",
+        "salary": "$7,800",
+        "proj": "17.3"
+    },
+    {
+        "name": "Larry Fitzgerald",
+        "injury": "",
+        "position": "WR",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "7.64",
+        "salary": "$6,500",
+        "proj": "17.3"
+    },
+    {
+        "name": "Odell Beckham",
+        "injury": "Q",
+        "position": "WR",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "4.89",
+        "salary": "$8,000",
+        "proj": "17.2"
+    },
+    {
+        "name": "Devonta Freeman",
+        "injury": "",
+        "position": "RB",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "9.31",
+        "salary": "$7,300",
+        "proj": "17.2"
+    },
+    {
+        "name": "Doug Baldwin",
+        "injury": "",
+        "position": "WR",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "8.34",
+        "salary": "$6,700",
+        "proj": "17.2"
+    },
+    {
+        "name": "Rob Gronkowski",
+        "injury": "",
+        "position": "TE",
+        "team": "NE",
+        "opp": "@NO",
+        "own": "7.41",
+        "salary": "$6,900",
+        "proj": "17.1"
+    },
+    {
+        "name": "Tyreek Hill",
+        "injury": "",
+        "position": "WR",
+        "team": "KC",
+        "opp": "PHI",
+        "own": "8.18",
+        "salary": "$6,200",
+        "proj": "17"
+    },
+    {
+        "name": "Trevor Siemian",
+        "injury": "",
+        "position": "QB",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "1.97",
+        "salary": "$4,900",
+        "proj": "16.8"
+    },
+    {
+        "name": "Dez Bryant",
+        "injury": "",
+        "position": "WR",
+        "team": "DAL",
+        "opp": "@DEN",
+        "own": "3.37",
+        "salary": "$6,600",
+        "proj": "16.7"
+    },
+    {
+        "name": "Matthew Stafford",
+        "injury": "",
+        "position": "QB",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "1.43",
+        "salary": "$5,800",
+        "proj": "16.7"
+    },
+    {
+        "name": "Eli Manning",
+        "injury": "",
+        "position": "QB",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "2.97",
+        "salary": "$5,300",
+        "proj": "16.5"
+    },
+    {
+        "name": "Jimmy Graham",
+        "injury": "",
+        "position": "TE",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "5.83",
+        "salary": "$4,900",
+        "proj": "16.4"
+    },
+    {
+        "name": "Ty Montgomery",
+        "injury": "",
+        "position": "RB",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "9.91",
+        "salary": "$5,800",
+        "proj": "16.1"
+    },
+    {
+        "name": "Stefon Diggs",
+        "injury": "",
+        "position": "WR",
+        "team": "MIN",
+        "opp": "@PIT",
+        "own": "2.21",
+        "salary": "$6,100",
+        "proj": "16.1"
+    },
+    {
+        "name": "Melvin Gordon",
+        "injury": "",
+        "position": "RB",
+        "team": "LAC",
+        "opp": "MIA",
+        "own": "11.72",
+        "salary": "$7,000",
+        "proj": "16"
+    },
+    {
+        "name": "Kirk Cousins",
+        "injury": "",
+        "position": "QB",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "1.77",
+        "salary": "$6,100",
+        "proj": "15.9"
+    },
+    {
+        "name": "Randall Cobb",
+        "injury": "",
+        "position": "WR",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "4.8",
+        "salary": "$5,900",
+        "proj": "15.8"
+    },
+    {
+        "name": "Dak Prescott",
+        "injury": "",
+        "position": "QB",
+        "team": "DAL",
+        "opp": "@DEN",
+        "own": "1.35",
+        "salary": "$5,600",
+        "proj": "15.8"
+    },
+    {
+        "name": "Sam Bradford",
+        "injury": "Q",
+        "position": "QB",
+        "team": "MIN",
+        "opp": "@PIT",
+        "own": "0.91",
+        "salary": "$5,500",
+        "proj": "15.8"
+    },
+    {
+        "name": "Joe Flacco",
+        "injury": "",
+        "position": "QB",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "2.38",
+        "salary": "$5,200",
+        "proj": "15.7"
+    },
+    {
+        "name": "Michael Crabtree",
+        "injury": "",
+        "position": "WR",
+        "team": "OAK",
+        "opp": "NYJ",
+        "own": "5.42",
+        "salary": "$7,100",
+        "proj": "15.7"
+    },
+    {
+        "name": "DeAndre Hopkins",
+        "injury": "",
+        "position": "WR",
+        "team": "HOU",
+        "opp": "@CIN",
+        "own": "0",
+        "salary": "$5,800",
+        "proj": "15.7"
+    },
+    {
+        "name": "Andy Dalton",
+        "injury": "",
+        "position": "QB",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "0",
+        "salary": "$5,500",
+        "proj": "15.6"
+    },
+    {
+        "name": "Kareem Hunt",
+        "injury": "",
+        "position": "RB",
+        "team": "KC",
+        "opp": "PHI",
+        "own": "7.3",
+        "salary": "$6,800",
+        "proj": "15.6"
+    },
+    {
+        "name": "Keenan Allen",
+        "injury": "",
+        "position": "WR",
+        "team": "LAC",
+        "opp": "MIA",
+        "own": "6.06",
+        "salary": "$5,800",
+        "proj": "15.6"
+    },
+    {
+        "name": "Terrelle Pryor",
+        "injury": "",
+        "position": "WR",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "3.52",
+        "salary": "$6,000",
+        "proj": "15.5"
+    },
+    {
+        "name": "Tyrod Taylor",
+        "injury": "",
+        "position": "QB",
+        "team": "BUF",
+        "opp": "@CAR",
+        "own": "0.95",
+        "salary": "$5,300",
+        "proj": "15.4"
+    },
+    {
+        "name": "Demaryius Thomas",
+        "injury": "",
+        "position": "WR",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "3.21",
+        "salary": "$5,900",
+        "proj": "15.3"
+    },
+    {
+        "name": "Jay Ajayi",
+        "injury": "",
+        "position": "RB",
+        "team": "MIA",
+        "opp": "@LAC",
+        "own": "4.21",
+        "salary": "$6,400",
+        "proj": "15.1"
+    },
+    {
+        "name": "DeVante Parker",
+        "injury": "",
+        "position": "WR",
+        "team": "MIA",
+        "opp": "@LAC",
+        "own": "2.82",
+        "salary": "$5,400",
+        "proj": "14.8"
+    },
+    {
+        "name": "Sammy Watkins",
+        "injury": "",
+        "position": "WR",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "6.56",
+        "salary": "$5,200",
+        "proj": "14.7"
+    },
+    {
+        "name": "James White",
+        "injury": "",
+        "position": "RB",
+        "team": "NE",
+        "opp": "@NO",
+        "own": "13.37",
+        "salary": "$4,000",
+        "proj": "14.6"
+    },
+    {
+        "name": "Alshon Jeffery",
+        "injury": "",
+        "position": "WR",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "4.97",
+        "salary": "$5,700",
+        "proj": "14.6"
+    },
+    {
+        "name": "Alex Smith",
+        "injury": "",
+        "position": "QB",
+        "team": "KC",
+        "opp": "PHI",
+        "own": "2.5",
+        "salary": "$5,700",
+        "proj": "14.5"
+    },
+    {
+        "name": "Jordan Reed",
+        "injury": "",
+        "position": "TE",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "4.13",
+        "salary": "$5,200",
+        "proj": "14.5"
+    },
+    {
+        "name": "Greg Olsen",
+        "injury": "",
+        "position": "TE",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "3.97",
+        "salary": "$5,500",
+        "proj": "14.5"
+    },
+    {
+        "name": "Todd Gurley",
+        "injury": "",
+        "position": "RB",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "7.77",
+        "salary": "$6,800",
+        "proj": "14.4"
+    },
+    {
+        "name": "Jarvis Landry",
+        "injury": "Q",
+        "position": "WR",
+        "team": "MIA",
+        "opp": "@LAC",
+        "own": "3.01",
+        "salary": "$5,500",
+        "proj": "14.3"
+    },
+    {
+        "name": "Kelvin Benjamin",
+        "injury": "",
+        "position": "WR",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "6.97",
+        "salary": "$5,600",
+        "proj": "14.3"
+    },
+    {
+        "name": "Golden Tate",
+        "injury": "",
+        "position": "WR",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "1.98",
+        "salary": "$6,800",
+        "proj": "14.2"
+    },
+    {
+        "name": "Christian McCaffrey",
+        "injury": "",
+        "position": "RB",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "5.78",
+        "salary": "$5,600",
+        "proj": "14.1"
+    },
+    {
+        "name": "Kyle Rudolph",
+        "injury": "",
+        "position": "TE",
+        "team": "MIN",
+        "opp": "@PIT",
+        "own": "3.6",
+        "salary": "$4,200",
+        "proj": "14.1"
+    },
+    {
+        "name": "Dalvin Cook",
+        "injury": "",
+        "position": "RB",
+        "team": "MIN",
+        "opp": "@PIT",
+        "own": "3.27",
+        "salary": "$5,900",
+        "proj": "14.1"
+    },
+    {
+        "name": "DeMarco Murray",
+        "injury": "",
+        "position": "RB",
+        "team": "TEN",
+        "opp": "@JAX",
+        "own": "3",
+        "salary": "$6,300",
+        "proj": "14.1"
+    },
+    {
+        "name": "Travis Kelce",
+        "injury": "",
+        "position": "TE",
+        "team": "KC",
+        "opp": "PHI",
+        "own": "4.07",
+        "salary": "$5,100",
+        "proj": "13.9"
+    },
+    {
+        "name": "Leonard Fournette",
+        "injury": "",
+        "position": "RB",
+        "team": "JAX",
+        "opp": "TEN",
+        "own": "4.53",
+        "salary": "$6,500",
+        "proj": "13.8"
+    },
+    {
+        "name": "Adam Thielen",
+        "injury": "",
+        "position": "WR",
+        "team": "MIN",
+        "opp": "@PIT",
+        "own": "2.93",
+        "salary": "$5,000",
+        "proj": "13.8"
+    },
+    {
+        "name": "Zach Ertz",
+        "injury": "",
+        "position": "TE",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "2.78",
+        "salary": "$5,300",
+        "proj": "13.8"
+    },
+    {
+        "name": "Marshawn Lynch",
+        "injury": "",
+        "position": "RB",
+        "team": "OAK",
+        "opp": "NYJ",
+        "own": "8.97",
+        "salary": "$6,000",
+        "proj": "13.7"
+    },
+    {
+        "name": "T.Y. Hilton",
+        "injury": "",
+        "position": "WR",
+        "team": "IND",
+        "opp": "ARI",
+        "own": "2.47",
+        "salary": "$5,300",
+        "proj": "13.6"
+    },
+    {
+        "name": "Marqise Lee",
+        "injury": "",
+        "position": "WR",
+        "team": "JAX",
+        "opp": "TEN",
+        "own": "3.58",
+        "salary": "$3,800",
+        "proj": "13.6"
+    },
+    {
+        "name": "Emmanuel Sanders",
+        "injury": "",
+        "position": "WR",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "2.61",
+        "salary": "$5,200",
+        "proj": "13.6"
+    },
+    {
+        "name": "Davante Adams",
+        "injury": "",
+        "position": "WR",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "4.81",
+        "salary": "$5,600",
+        "proj": "13.5"
+    },
+    {
+        "name": "Kendall Wright",
+        "injury": "",
+        "position": "WR",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "3.28",
+        "salary": "$3,900",
+        "proj": "13.2"
+    },
+    {
+        "name": "Mike Glennon",
+        "injury": "",
+        "position": "QB",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "0.56",
+        "salary": "$4,600",
+        "proj": "13.2"
+    },
+    {
+        "name": "Pierre Garcon",
+        "injury": "",
+        "position": "WR",
+        "team": "SF",
+        "opp": "@SEA",
+        "own": "1.29",
+        "salary": "$4,900",
+        "proj": "13.2"
+    },
+    {
+        "name": "Jamison Crowder",
+        "injury": "",
+        "position": "WR",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "2.39",
+        "salary": "$4,900",
+        "proj": "13.1"
+    },
+    {
+        "name": "Chris Hogan",
+        "injury": "",
+        "position": "WR",
+        "team": "NE",
+        "opp": "@NO",
+        "own": "8.63",
+        "salary": "$5,600",
+        "proj": "13"
+    },
+    {
+        "name": "Jared Goff",
+        "injury": "",
+        "position": "QB",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "1.2",
+        "salary": "$5,100",
+        "proj": "13"
+    },
+    {
+        "name": "Tyrell Williams",
+        "injury": "",
+        "position": "WR",
+        "team": "LAC",
+        "opp": "MIA",
+        "own": "4.08",
+        "salary": "$4,700",
+        "proj": "12.9"
+    },
+    {
+        "name": "DeSean Jackson",
+        "injury": "",
+        "position": "WR",
+        "team": "TB",
+        "opp": "CHI",
+        "own": "5.12",
+        "salary": "$4,900",
+        "proj": "12.9"
+    },
+    {
+        "name": "Deshaun Watson",
+        "injury": "",
+        "position": "QB",
+        "team": "HOU",
+        "opp": "@CIN",
+        "own": "0",
+        "salary": "$4,400",
+        "proj": "12.9"
+    },
+    {
+        "name": "Jeremy Maclin",
+        "injury": "",
+        "position": "WR",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "4.91",
+        "salary": "$5,000",
+        "proj": "12.8"
+    },
+    {
+        "name": "Martellus Bennett",
+        "injury": "",
+        "position": "TE",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "5.63",
+        "salary": "$3,900",
+        "proj": "12.8"
+    },
+    {
+        "name": "Corey Davis",
+        "injury": "",
+        "position": "WR",
+        "team": "TEN",
+        "opp": "@JAX",
+        "own": "1.8",
+        "salary": "$4,100",
+        "proj": "12.8"
+    },
+    {
+        "name": "DeShone Kizer",
+        "injury": "",
+        "position": "QB",
+        "team": "CLE",
+        "opp": "@BAL",
+        "own": "0.31",
+        "salary": "$5,100",
+        "proj": "12.8"
+    },
+    {
+        "name": "Blake Bortles",
+        "injury": "",
+        "position": "QB",
+        "team": "JAX",
+        "opp": "TEN",
+        "own": "1.34",
+        "salary": "$4,400",
+        "proj": "12.8"
+    },
+    {
+        "name": "Jordan Howard",
+        "injury": "Q",
+        "position": "RB",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "4.47",
+        "salary": "$5,900",
+        "proj": "12.6"
+    },
+    {
+        "name": "Brandon Marshall",
+        "injury": "",
+        "position": "WR",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "2.56",
+        "salary": "$5,000",
+        "proj": "12.6"
+    },
+    {
+        "name": "Ted Ginn",
+        "injury": "",
+        "position": "WR",
+        "team": "NO",
+        "opp": "NE",
+        "own": "3.58",
+        "salary": "$4,800",
+        "proj": "12.6"
+    },
+    {
+        "name": "Rishard Matthews",
+        "injury": "",
+        "position": "WR",
+        "team": "TEN",
+        "opp": "@JAX",
+        "own": "2.21",
+        "salary": "$4,600",
+        "proj": "12.5"
+    },
+    {
+        "name": "Cooper Kupp",
+        "injury": "",
+        "position": "WR",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "2.77",
+        "salary": "$4,100",
+        "proj": "12.5"
+    },
+    {
+        "name": "Jordan Matthews",
+        "injury": "",
+        "position": "WR",
+        "team": "BUF",
+        "opp": "@CAR",
+        "own": "2.97",
+        "salary": "$3,900",
+        "proj": "12.4"
+    },
+    {
+        "name": "Terrance West",
+        "injury": "",
+        "position": "RB",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "5.86",
+        "salary": "$5,100",
+        "proj": "12.4"
+    },
+    {
+        "name": "Kenny Golladay",
+        "injury": "",
+        "position": "WR",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "1.36",
+        "salary": "$4,000",
+        "proj": "12.3"
+    },
+    {
+        "name": "Martavis Bryant",
+        "injury": "",
+        "position": "WR",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "2.85",
+        "salary": "$5,500",
+        "proj": "12.3"
+    },
+    {
+        "name": "C.J. Anderson",
+        "injury": "",
+        "position": "RB",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "4.94",
+        "salary": "$4,700",
+        "proj": "12.2"
+    },
+    {
+        "name": "Corey Coleman",
+        "injury": "",
+        "position": "WR",
+        "team": "CLE",
+        "opp": "@BAL",
+        "own": "0.97",
+        "salary": "$4,700",
+        "proj": "12.2"
+    },
+    {
+        "name": "Jacoby Brissett",
+        "injury": "",
+        "position": "QB",
+        "team": "IND",
+        "opp": "ARI",
+        "own": "0",
+        "salary": "$4,500",
+        "proj": "12.1"
+    },
+    {
+        "name": "Jaron Brown",
+        "injury": "",
+        "position": "WR",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "6.3",
+        "salary": "$3,200",
+        "proj": "12.1"
+    },
+    {
+        "name": "Robert Woods",
+        "injury": "",
+        "position": "WR",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "5.01",
+        "salary": "$3,400",
+        "proj": "12"
+    },
+    {
+        "name": "Mike Wallace",
+        "injury": "",
+        "position": "WR",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "5.62",
+        "salary": "$3,900",
+        "proj": "11.9"
+    },
+    {
+        "name": "J.J. Nelson",
+        "injury": "",
+        "position": "WR",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "8.04",
+        "salary": "$3,800",
+        "proj": "11.9"
+    },
+    {
+        "name": "Robby Anderson",
+        "injury": "",
+        "position": "WR",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "2",
+        "salary": "$3,400",
+        "proj": "11.9"
+    },
+    {
+        "name": "Tyler Lockett",
+        "injury": "",
+        "position": "WR",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "7.67",
+        "salary": "$4,000",
+        "proj": "11.8"
+    },
+    {
+        "name": "Austin Hooper",
+        "injury": "",
+        "position": "TE",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "4.23",
+        "salary": "$3,500",
+        "proj": "11.8"
+    },
+    {
+        "name": "Mark Ingram",
+        "injury": "",
+        "position": "RB",
+        "team": "NO",
+        "opp": "NE",
+        "own": "3.76",
+        "salary": "$4,900",
+        "proj": "11.8"
+    },
+    {
+        "name": "Josh McCown",
+        "injury": "",
+        "position": "QB",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "0.26",
+        "salary": "$4,500",
+        "proj": "11.7"
+    },
+    {
+        "name": "Delanie Walker",
+        "injury": "",
+        "position": "TE",
+        "team": "TEN",
+        "opp": "@JAX",
+        "own": "2.83",
+        "salary": "$4,700",
+        "proj": "11.6"
+    },
+    {
+        "name": "Bilal Powell",
+        "injury": "",
+        "position": "RB",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "1.88",
+        "salary": "$5,000",
+        "proj": "11.6"
+    },
+    {
+        "name": "Breshad Perriman",
+        "injury": "",
+        "position": "WR",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "5.28",
+        "salary": "$3,100",
+        "proj": "11.6"
+    },
+    {
+        "name": "Nelson Agholor",
+        "injury": "",
+        "position": "WR",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "1.71",
+        "salary": "$4,400",
+        "proj": "11.6"
+    },
+    {
+        "name": "Taylor Gabriel",
+        "injury": "",
+        "position": "WR",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "7.25",
+        "salary": "$4,000",
+        "proj": "11.5"
+    },
+    {
+        "name": "Carlos Hyde",
+        "injury": "",
+        "position": "RB",
+        "team": "SF",
+        "opp": "@SEA",
+        "own": "1.31",
+        "salary": "$4,900",
+        "proj": "11.3"
+    },
+    {
+        "name": "Mohamed Sanu",
+        "injury": "",
+        "position": "WR",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "5.82",
+        "salary": "$4,500",
+        "proj": "11.3"
+    },
+    {
+        "name": "Allen Hurns",
+        "injury": "",
+        "position": "WR",
+        "team": "JAX",
+        "opp": "TEN",
+        "own": "3.1",
+        "salary": "$3,900",
+        "proj": "11.3"
+    },
+    {
+        "name": "Kenny Britt",
+        "injury": "",
+        "position": "WR",
+        "team": "CLE",
+        "opp": "@BAL",
+        "own": "1.13",
+        "salary": "$4,000",
+        "proj": "11.2"
+    },
+    {
+        "name": "Duke Johnson",
+        "injury": "",
+        "position": "RB",
+        "team": "CLE",
+        "opp": "@BAL",
+        "own": "0.39",
+        "salary": "$3,900",
+        "proj": "11"
+    },
+    {
+        "name": "Alvin Kamara",
+        "injury": "",
+        "position": "RB",
+        "team": "NO",
+        "opp": "NE",
+        "own": "4.08",
+        "salary": "$3,500",
+        "proj": "10.9"
+    },
+    {
+        "name": "Torrey Smith",
+        "injury": "",
+        "position": "WR",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "2.61",
+        "salary": "$3,600",
+        "proj": "10.9"
+    },
+    {
+        "name": "Marvin Jones",
+        "injury": "",
+        "position": "WR",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "1.44",
+        "salary": "$4,200",
+        "proj": "10.8"
+    },
+    {
+        "name": "Eric Decker",
+        "injury": "",
+        "position": "WR",
+        "team": "TEN",
+        "opp": "@JAX",
+        "own": "1.83",
+        "salary": "$4,400",
+        "proj": "10.8"
+    },
+    {
+        "name": "Kerwynn Williams",
+        "injury": "",
+        "position": "RB",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "5.26",
+        "salary": "$4,800",
+        "proj": "10.8"
+    },
+    {
+        "name": "Javorius Allen",
+        "injury": "",
+        "position": "RB",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "4.94",
+        "salary": "$4,100",
+        "proj": "10.8"
+    },
+    {
+        "name": "Tarik Cohen",
+        "injury": "",
+        "position": "RB",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "3.59",
+        "salary": "$4,100",
+        "proj": "10.8"
+    },
+    {
+        "name": "Donte Moncrief",
+        "injury": "",
+        "position": "WR",
+        "team": "IND",
+        "opp": "ARI",
+        "own": "2.56",
+        "salary": "$4,000",
+        "proj": "10.8"
+    },
+    {
+        "name": "Sterling Shepard",
+        "injury": "",
+        "position": "WR",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "2.93",
+        "salary": "$4,700",
+        "proj": "10.8"
+    },
+    {
+        "name": "Jermaine Kearse",
+        "injury": "",
+        "position": "WR",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "1.28",
+        "salary": "$3,900",
+        "proj": "10.6"
+    },
+    {
+        "name": "Mike Gillislee",
+        "injury": "",
+        "position": "RB",
+        "team": "NE",
+        "opp": "@NO",
+        "own": "6.69",
+        "salary": "$5,700",
+        "proj": "10.6"
+    },
+    {
+        "name": "Theo Riddick",
+        "injury": "",
+        "position": "RB",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "2.01",
+        "salary": "$4,500",
+        "proj": "10.6"
+    },
+    {
+        "name": "Eric Ebron",
+        "injury": "",
+        "position": "TE",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "2.67",
+        "salary": "$3,000",
+        "proj": "10.6"
+    },
+    {
+        "name": "Seattle Seahawks",
+        "injury": "",
+        "position": "D",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "-",
+        "salary": "$4,000",
+        "proj": "10.6"
+    },
+    {
+        "name": "Kenny Stills",
+        "injury": "",
+        "position": "WR",
+        "team": "MIA",
+        "opp": "@LAC",
+        "own": "1.91",
+        "salary": "$3,900",
+        "proj": "10.6"
+    },
+    {
+        "name": "Lamar Miller",
+        "injury": "",
+        "position": "RB",
+        "team": "HOU",
+        "opp": "@CIN",
+        "own": "0",
+        "salary": "$5,300",
+        "proj": "10.6"
+    },
+    {
+        "name": "Travis Benjamin",
+        "injury": "",
+        "position": "WR",
+        "team": "LAC",
+        "opp": "MIA",
+        "own": "3.29",
+        "salary": "$3,500",
+        "proj": "10.5"
+    },
+    {
+        "name": "Shane Vereen",
+        "injury": "",
+        "position": "RB",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "2.38",
+        "salary": "$4,000",
+        "proj": "10.4"
+    },
+    {
+        "name": "Paul Perkins",
+        "injury": "",
+        "position": "RB",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "6.1",
+        "salary": "$3,800",
+        "proj": "10.4"
+    },
+    {
+        "name": "Jared Cook",
+        "injury": "",
+        "position": "TE",
+        "team": "OAK",
+        "opp": "NYJ",
+        "own": "3.96",
+        "salary": "$3,300",
+        "proj": "10.3"
+    },
+    {
+        "name": "Jacquizz Rodgers",
+        "injury": "",
+        "position": "RB",
+        "team": "TB",
+        "opp": "CHI",
+        "own": "3.05",
+        "salary": "$4,400",
+        "proj": "10.3"
+    },
+    {
+        "name": "Hunter Henry",
+        "injury": "",
+        "position": "TE",
+        "team": "LAC",
+        "opp": "MIA",
+        "own": "4.26",
+        "salary": "$3,600",
+        "proj": "10.3"
+    },
+    {
+        "name": "Coby Fleener",
+        "injury": "",
+        "position": "TE",
+        "team": "NO",
+        "opp": "NE",
+        "own": "4.36",
+        "salary": "$3,100",
+        "proj": "10.3"
+    },
+    {
+        "name": "Markus Wheaton",
+        "injury": "Q",
+        "position": "WR",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "1.11",
+        "salary": "$3,500",
+        "proj": "10.2"
+    },
+    {
+        "name": "Julius Thomas",
+        "injury": "",
+        "position": "TE",
+        "team": "MIA",
+        "opp": "@LAC",
+        "own": "2.86",
+        "salary": "$2,800",
+        "proj": "10.2"
+    },
+    {
+        "name": "Baltimore Ravens",
+        "injury": "",
+        "position": "D",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "-",
+        "salary": "$3,700",
+        "proj": "10.1"
+    },
+    {
+        "name": "Tyler Eifert",
+        "injury": "",
+        "position": "TE",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "0",
+        "salary": "$4,300",
+        "proj": "10.1"
+    },
+    {
+        "name": "Tevin Coleman",
+        "injury": "",
+        "position": "RB",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "4.64",
+        "salary": "$5,300",
+        "proj": "10.1"
+    },
+    {
+        "name": "Cole Beasley",
+        "injury": "",
+        "position": "WR",
+        "team": "DAL",
+        "opp": "@DEN",
+        "own": "1.22",
+        "salary": "$4,300",
+        "proj": "10"
+    },
+    {
+        "name": "Giovani Bernard",
+        "injury": "",
+        "position": "RB",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "0",
+        "salary": "$4,000",
+        "proj": "9.8"
+    },
+    {
+        "name": "Joe Mixon",
+        "injury": "",
+        "position": "RB",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "0",
+        "salary": "$5,000",
+        "proj": "9.8"
+    },
+    {
+        "name": "Darren Sproles",
+        "injury": "",
+        "position": "RB",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "2.55",
+        "salary": "$3,900",
+        "proj": "9.7"
+    },
+    {
+        "name": "Andre Ellington",
+        "injury": "",
+        "position": "RB",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "4.97",
+        "salary": "$4,000",
+        "proj": "9.7"
+    },
+    {
+        "name": "Carolina Panthers",
+        "injury": "",
+        "position": "D",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "-",
+        "salary": "$3,600",
+        "proj": "9.7"
+    },
+    {
+        "name": "Jason Witten",
+        "injury": "",
+        "position": "TE",
+        "team": "DAL",
+        "opp": "@DEN",
+        "own": "2.3",
+        "salary": "$3,400",
+        "proj": "9.6"
+    },
+    {
+        "name": "Chris Thompson",
+        "injury": "",
+        "position": "RB",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "2.45",
+        "salary": "$3,800",
+        "proj": "9.5"
+    },
+    {
+        "name": "John Ross",
+        "injury": "",
+        "position": "WR",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "0",
+        "salary": "$3,300",
+        "proj": "9.5"
+    },
+    {
+        "name": "C.J. Prosise",
+        "injury": "",
+        "position": "RB",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "4.43",
+        "salary": "$3,900",
+        "proj": "9.5"
+    },
+    {
+        "name": "Devin Funchess",
+        "injury": "",
+        "position": "WR",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "4.25",
+        "salary": "$3,900",
+        "proj": "9.3"
+    },
+    {
+        "name": "Brandon LaFell",
+        "injury": "",
+        "position": "WR",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "0",
+        "salary": "$3,700",
+        "proj": "9.3"
+    },
+    {
+        "name": "Oakland Raiders",
+        "injury": "",
+        "position": "D",
+        "team": "OAK",
+        "opp": "NYJ",
+        "own": "-",
+        "salary": "$3,500",
+        "proj": "9.3"
+    },
+    {
+        "name": "Cincinnati Bengals",
+        "injury": "",
+        "position": "D",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "-",
+        "salary": "$3,900",
+        "proj": "9.3"
+    },
+    {
+        "name": "Zay Jones",
+        "injury": "",
+        "position": "WR",
+        "team": "BUF",
+        "opp": "@CAR",
+        "own": "0.92",
+        "salary": "$3,500",
+        "proj": "9.3"
+    },
+    {
+        "name": "Marquise Goodwin",
+        "injury": "",
+        "position": "WR",
+        "team": "SF",
+        "opp": "@SEA",
+        "own": "0.91",
+        "salary": "$3,500",
+        "proj": "9.3"
+    },
+    {
+        "name": "Jaelen Strong",
+        "injury": "",
+        "position": "WR",
+        "team": "HOU",
+        "opp": "@CIN",
+        "own": "0",
+        "salary": "$3,500",
+        "proj": "9.2"
+    },
+    {
+        "name": "Arizona Cardinals",
+        "injury": "",
+        "position": "D",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "-",
+        "salary": "$4,100",
+        "proj": "9.2"
+    },
+    {
+        "name": "Jesse James",
+        "injury": "",
+        "position": "TE",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "2.35",
+        "salary": "$3,200",
+        "proj": "9.2"
+    },
+    {
+        "name": "Evan Engram",
+        "injury": "",
+        "position": "TE",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "3.31",
+        "salary": "$3,200",
+        "proj": "9.1"
+    },
+    {
+        "name": "Charles Clay",
+        "injury": "",
+        "position": "TE",
+        "team": "BUF",
+        "opp": "@CAR",
+        "own": "2.49",
+        "salary": "$3,000",
+        "proj": "9.1"
+    },
+    {
+        "name": "Braxton Miller",
+        "injury": "",
+        "position": "WR",
+        "team": "HOU",
+        "opp": "@CIN",
+        "own": "0",
+        "salary": "$3,400",
+        "proj": "9.1"
+    },
+    {
+        "name": "Antonio Gates",
+        "injury": "",
+        "position": "TE",
+        "team": "LAC",
+        "opp": "MIA",
+        "own": "4.29",
+        "salary": "$3,000",
+        "proj": "9"
+    },
+    {
+        "name": "Thomas Rawls",
+        "injury": "",
+        "position": "RB",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "5.57",
+        "salary": "$4,600",
+        "proj": "8.9"
+    },
+    {
+        "name": "Chris Godwin",
+        "injury": "",
+        "position": "WR",
+        "team": "TB",
+        "opp": "CHI",
+        "own": "1.05",
+        "salary": "$3,000",
+        "proj": "8.9"
+    },
+    {
+        "name": "Terrance Williams",
+        "injury": "Q",
+        "position": "WR",
+        "team": "DAL",
+        "opp": "@DEN",
+        "own": "1.25",
+        "salary": "$3,600",
+        "proj": "8.8"
+    },
+    {
+        "name": "Cameron Brate",
+        "injury": "",
+        "position": "TE",
+        "team": "TB",
+        "opp": "CHI",
+        "own": "3.05",
+        "salary": "$3,000",
+        "proj": "8.8"
+    },
+    {
+        "name": "Rob Kelley",
+        "injury": "",
+        "position": "RB",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "3.81",
+        "salary": "$3,900",
+        "proj": "8.8"
+    },
+    {
+        "name": "Matt Forte",
+        "injury": "",
+        "position": "RB",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "1.23",
+        "salary": "$4,200",
+        "proj": "8.7"
+    },
+    {
+        "name": "Isaiah Crowell",
+        "injury": "",
+        "position": "RB",
+        "team": "CLE",
+        "opp": "@BAL",
+        "own": "0.8",
+        "salary": "$4,900",
+        "proj": "8.6"
+    },
+    {
+        "name": "Chris Conley",
+        "injury": "",
+        "position": "WR",
+        "team": "KC",
+        "opp": "PHI",
+        "own": "3.31",
+        "salary": "$3,200",
+        "proj": "8.6"
+    },
+    {
+        "name": "New York Giants",
+        "injury": "",
+        "position": "D",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "-",
+        "salary": "$3,400",
+        "proj": "8.6"
+    },
+    {
+        "name": "Jamaal Charles",
+        "injury": "",
+        "position": "RB",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "1.51",
+        "salary": "$4,200",
+        "proj": "8.5"
+    },
+    {
+        "name": "Ameer Abdullah",
+        "injury": "",
+        "position": "RB",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "1.67",
+        "salary": "$4,100",
+        "proj": "8.5"
+    },
+    {
+        "name": "Tampa Bay Buccaneers",
+        "injury": "",
+        "position": "D",
+        "team": "TB",
+        "opp": "CHI",
+        "own": "-",
+        "salary": "$3,200",
+        "proj": "8.4"
+    },
+    {
+        "name": "Seth Roberts",
+        "injury": "",
+        "position": "WR",
+        "team": "OAK",
+        "opp": "NYJ",
+        "own": "2.16",
+        "salary": "$3,400",
+        "proj": "8.3"
+    },
+    {
+        "name": "Chris Carson",
+        "injury": "",
+        "position": "RB",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "2.81",
+        "salary": "$4,100",
+        "proj": "8.3"
+    },
+    {
+        "name": "Dwayne Allen",
+        "injury": "",
+        "position": "TE",
+        "team": "NE",
+        "opp": "@NO",
+        "own": "3.22",
+        "salary": "$2,500",
+        "proj": "8.3"
+    },
+    {
+        "name": "Zach Miller",
+        "injury": "",
+        "position": "TE",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "2.37",
+        "salary": "$2,900",
+        "proj": "8.3"
+    },
+    {
+        "name": "Frank Gore",
+        "injury": "",
+        "position": "RB",
+        "team": "IND",
+        "opp": "ARI",
+        "own": "1.44",
+        "salary": "$4,000",
+        "proj": "8.2"
+    },
+    {
+        "name": "Andre Holmes",
+        "injury": "",
+        "position": "WR",
+        "team": "BUF",
+        "opp": "@CAR",
+        "own": "0.87",
+        "salary": "$3,000",
+        "proj": "8.2"
+    },
+    {
+        "name": "Jack Doyle",
+        "injury": "",
+        "position": "TE",
+        "team": "IND",
+        "opp": "ARI",
+        "own": "1.1",
+        "salary": "$2,900",
+        "proj": "8.1"
+    },
+    {
+        "name": "Charles Sims",
+        "injury": "",
+        "position": "RB",
+        "team": "TB",
+        "opp": "CHI",
+        "own": "2.35",
+        "salary": "$3,900",
+        "proj": "8.1"
+    },
+    {
+        "name": "DeAndre Washington",
+        "injury": "",
+        "position": "RB",
+        "team": "OAK",
+        "opp": "NYJ",
+        "own": "1.96",
+        "salary": "$4,000",
+        "proj": "8"
+    },
+    {
+        "name": "Brandon Coleman",
+        "injury": "",
+        "position": "WR",
+        "team": "NO",
+        "opp": "NE",
+        "own": "2.22",
+        "salary": "$3,300",
+        "proj": "8"
+    },
+    {
+        "name": "Paul Richardson",
+        "injury": "",
+        "position": "WR",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "5.35",
+        "salary": "$4,200",
+        "proj": "8"
+    },
+    {
+        "name": "Houston Texans",
+        "injury": "",
+        "position": "D",
+        "team": "HOU",
+        "opp": "@CIN",
+        "own": "-",
+        "salary": "$3,100",
+        "proj": "8"
+    },
+    {
+        "name": "Rex Burkhead",
+        "injury": "",
+        "position": "RB",
+        "team": "NE",
+        "opp": "@NO",
+        "own": "6.14",
+        "salary": "$3,900",
+        "proj": "7.8"
+    },
+    {
+        "name": "Tavon Austin",
+        "injury": "",
+        "position": "WR",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "1.43",
+        "salary": "$3,500",
+        "proj": "7.8"
+    },
+    {
+        "name": "LeGarrette Blount",
+        "injury": "",
+        "position": "RB",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "2.16",
+        "salary": "$4,400",
+        "proj": "7.8"
+    },
+    {
+        "name": "Jonathan Stewart",
+        "injury": "",
+        "position": "RB",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "2.52",
+        "salary": "$4,400",
+        "proj": "7.7"
+    },
+    {
+        "name": "Kansas City Chiefs",
+        "injury": "",
+        "position": "D",
+        "team": "KC",
+        "opp": "PHI",
+        "own": "-",
+        "salary": "$2,900",
+        "proj": "7.7"
+    },
+    {
+        "name": "Pittsburgh Steelers",
+        "injury": "",
+        "position": "D",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "-",
+        "salary": "$3,000",
+        "proj": "7.7"
+    },
+    {
+        "name": "Phillip Dorsett",
+        "injury": "",
+        "position": "WR",
+        "team": "NE",
+        "opp": "@NO",
+        "own": "1.77",
+        "salary": "$3,900",
+        "proj": "7.7"
+    },
+    {
+        "name": "Brian Hoyer",
+        "injury": "",
+        "position": "QB",
+        "team": "SF",
+        "opp": "@SEA",
+        "own": "0.04",
+        "salary": "$4,500",
+        "proj": "7.7"
+    },
+    {
+        "name": "Jalen Richard",
+        "injury": "",
+        "position": "RB",
+        "team": "OAK",
+        "opp": "NYJ",
+        "own": "2.42",
+        "salary": "$4,000",
+        "proj": "7.6"
+    },
+    {
+        "name": "Adrian Peterson",
+        "injury": "",
+        "position": "RB",
+        "team": "NO",
+        "opp": "NE",
+        "own": "1.13",
+        "salary": "$4,700",
+        "proj": "7.6"
+    },
+    {
+        "name": "Branden Oliver",
+        "injury": "",
+        "position": "RB",
+        "team": "LAC",
+        "opp": "MIA",
+        "own": "1.42",
+        "salary": "$4,000",
+        "proj": "7.6"
+    },
+    {
+        "name": "Seth DeValve",
+        "injury": "",
+        "position": "TE",
+        "team": "CLE",
+        "opp": "@BAL",
+        "own": "1.05",
+        "salary": "$2,500",
+        "proj": "7.5"
+    },
+    {
+        "name": "Jeremy Kerley",
+        "injury": "",
+        "position": "WR",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "0.43",
+        "salary": "$3,600",
+        "proj": "7.5"
+    },
+    {
+        "name": "Vernon Davis",
+        "injury": "",
+        "position": "TE",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "1.27",
+        "salary": "$3,000",
+        "proj": "7.4"
+    },
+    {
+        "name": "David Njoku",
+        "injury": "",
+        "position": "TE",
+        "team": "CLE",
+        "opp": "@BAL",
+        "own": "0.88",
+        "salary": "$2,500",
+        "proj": "7.4"
+    },
+    {
+        "name": "Tyler Higbee",
+        "injury": "",
+        "position": "TE",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "2.8",
+        "salary": "$2,600",
+        "proj": "7.4"
+    },
+    {
+        "name": "Los Angeles Chargers",
+        "injury": "",
+        "position": "D",
+        "team": "LAC",
+        "opp": "MIA",
+        "own": "-",
+        "salary": "$2,800",
+        "proj": "7.3"
+    },
+    {
+        "name": "Denver Broncos",
+        "injury": "",
+        "position": "D",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "-",
+        "salary": "$3,400",
+        "proj": "7.2"
+    },
+    {
+        "name": "Jeremy Hill",
+        "injury": "",
+        "position": "RB",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "0",
+        "salary": "$3,900",
+        "proj": "7.2"
+    },
+    {
+        "name": "Los Angeles Rams",
+        "injury": "",
+        "position": "D",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "-",
+        "salary": "$3,000",
+        "proj": "7.1"
+    },
+    {
+        "name": "Jermaine Gresham",
+        "injury": "Q",
+        "position": "TE",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "3.4",
+        "salary": "$2,700",
+        "proj": "7.1"
+    },
+    {
+        "name": "Ben Watson",
+        "injury": "",
+        "position": "TE",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "1.81",
+        "salary": "$2,600",
+        "proj": "7"
+    },
+    {
+        "name": "Robert Turbin",
+        "injury": "",
+        "position": "RB",
+        "team": "IND",
+        "opp": "ARI",
+        "own": "0.22",
+        "salary": "$4,000",
+        "proj": "7"
+    },
+    {
+        "name": "George Kittle",
+        "injury": "",
+        "position": "TE",
+        "team": "SF",
+        "opp": "@SEA",
+        "own": "1.06",
+        "salary": "$2,500",
+        "proj": "6.9"
+    },
+    {
+        "name": "Dallas Cowboys",
+        "injury": "",
+        "position": "D",
+        "team": "DAL",
+        "opp": "@DEN",
+        "own": "-",
+        "salary": "$2,600",
+        "proj": "6.9"
+    },
+    {
+        "name": "Charcandrick West",
+        "injury": "",
+        "position": "RB",
+        "team": "KC",
+        "opp": "PHI",
+        "own": "0.7",
+        "salary": "$4,000",
+        "proj": "6.8"
+    },
+    {
+        "name": "Atlanta Falcons",
+        "injury": "",
+        "position": "D",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "-",
+        "salary": "$2,500",
+        "proj": "6.8"
+    },
+    {
+        "name": "Minnesota Vikings",
+        "injury": "",
+        "position": "D",
+        "team": "MIN",
+        "opp": "@PIT",
+        "own": "-",
+        "salary": "$2,700",
+        "proj": "6.7"
+    },
+    {
+        "name": "Gerald Everett",
+        "injury": "",
+        "position": "TE",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "1.77",
+        "salary": "$2,500",
+        "proj": "6.7"
+    },
+    {
+        "name": "Jacksonville Jaguars",
+        "injury": "",
+        "position": "D",
+        "team": "JAX",
+        "opp": "TEN",
+        "own": "-",
+        "salary": "$3,100",
+        "proj": "6.7"
+    },
+    {
+        "name": "Mike Tolbert",
+        "injury": "",
+        "position": "RB",
+        "team": "BUF",
+        "opp": "@CAR",
+        "own": "0.69",
+        "salary": "$3,800",
+        "proj": "6.7"
+    },
+    {
+        "name": "Jerick McKinnon",
+        "injury": "",
+        "position": "RB",
+        "team": "MIN",
+        "opp": "@PIT",
+        "own": "0.54",
+        "salary": "$3,200",
+        "proj": "6.6"
+    },
+    {
+        "name": "Tennessee Titans",
+        "injury": "",
+        "position": "D",
+        "team": "TEN",
+        "opp": "@JAX",
+        "own": "-",
+        "salary": "$3,300",
+        "proj": "6.6"
+    },
+    {
+        "name": "Washington Redskins",
+        "injury": "",
+        "position": "D",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "-",
+        "salary": "$2,900",
+        "proj": "6.5"
+    },
+    {
+        "name": "Josh Bellamy",
+        "injury": "Q",
+        "position": "WR",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "0.28",
+        "salary": "$3,000",
+        "proj": "6.5"
+    },
+    {
+        "name": "Lance Kendricks",
+        "injury": "",
+        "position": "TE",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "1.7",
+        "salary": "$2,500",
+        "proj": "6.2"
+    },
+    {
+        "name": "Philadelphia Eagles",
+        "injury": "",
+        "position": "D",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "-",
+        "salary": "$2,900",
+        "proj": "6.2"
+    },
+    {
+        "name": "Derrick Henry",
+        "injury": "",
+        "position": "RB",
+        "team": "TEN",
+        "opp": "@JAX",
+        "own": "0.52",
+        "salary": "$5,500",
+        "proj": "6.2"
+    },
+    {
+        "name": "Miami Dolphins",
+        "injury": "",
+        "position": "D",
+        "team": "MIA",
+        "opp": "@LAC",
+        "own": "-",
+        "salary": "$2,600",
+        "proj": "6.2"
+    },
+    {
+        "name": "Will Tye",
+        "injury": "",
+        "position": "TE",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "0.7",
+        "salary": "$2,600",
+        "proj": "6.1"
+    },
+    {
+        "name": "Adam Humphries",
+        "injury": "",
+        "position": "WR",
+        "team": "TB",
+        "opp": "CHI",
+        "own": "0.88",
+        "salary": "$3,600",
+        "proj": "6.1"
+    },
+    {
+        "name": "Curtis Samuel",
+        "injury": "",
+        "position": "WR",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "1.24",
+        "salary": "$3,200",
+        "proj": "6.1"
+    },
+    {
+        "name": "Ryan Grant",
+        "injury": "",
+        "position": "WR",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "0.23",
+        "salary": "$3,500",
+        "proj": "6"
+    },
+    {
+        "name": "Marlon Mack",
+        "injury": "",
+        "position": "RB",
+        "team": "IND",
+        "opp": "ARI",
+        "own": "0.41",
+        "salary": "$3,800",
+        "proj": "6"
+    },
+    {
+        "name": "Chicago Bears",
+        "injury": "",
+        "position": "D",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "-",
+        "salary": "$2,200",
+        "proj": "6"
+    },
+    {
+        "name": "D'Onta Foreman",
+        "injury": "",
+        "position": "RB",
+        "team": "HOU",
+        "opp": "@CIN",
+        "own": "0",
+        "salary": "$4,100",
+        "proj": "6"
+    },
+    {
+        "name": "New England Patriots",
+        "injury": "",
+        "position": "D",
+        "team": "NE",
+        "opp": "@NO",
+        "own": "-",
+        "salary": "$2,500",
+        "proj": "6"
+    },
+    {
+        "name": "Buffalo Bills",
+        "injury": "",
+        "position": "D",
+        "team": "BUF",
+        "opp": "@CAR",
+        "own": "-",
+        "salary": "$2,700",
+        "proj": "6"
+    },
+    {
+        "name": "O.J. Howard",
+        "injury": "",
+        "position": "TE",
+        "team": "TB",
+        "opp": "CHI",
+        "own": "1.76",
+        "salary": "$2,900",
+        "proj": "5.8"
+    },
+    {
+        "name": "Geronimo Allison",
+        "injury": "",
+        "position": "WR",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "0.5",
+        "salary": "$3,000",
+        "proj": "5.7"
+    },
+    {
+        "name": "Chris Ivory",
+        "injury": "",
+        "position": "RB",
+        "team": "JAX",
+        "opp": "TEN",
+        "own": "0.4",
+        "salary": "$3,600",
+        "proj": "5.7"
+    },
+    {
+        "name": "ArDarius Stewart",
+        "injury": "",
+        "position": "WR",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "0.3",
+        "salary": "$3,200",
+        "proj": "5.7"
+    },
+    {
+        "name": "Roger Lewis",
+        "injury": "",
+        "position": "WR",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "0.23",
+        "salary": "$3,300",
+        "proj": "5.6"
+    },
+    {
+        "name": "Pharoh Cooper",
+        "injury": "",
+        "position": "WR",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "0.35",
+        "salary": "$3,000",
+        "proj": "5.6"
+    },
+    {
+        "name": "Deonte Thompson",
+        "injury": "",
+        "position": "WR",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "0.42",
+        "salary": "$3,000",
+        "proj": "5.6"
+    },
+    {
+        "name": "Dion Sims",
+        "injury": "",
+        "position": "TE",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "0.94",
+        "salary": "$2,500",
+        "proj": "5.4"
+    },
+    {
+        "name": "Taywan Taylor",
+        "injury": "",
+        "position": "WR",
+        "team": "TEN",
+        "opp": "@JAX",
+        "own": "0.16",
+        "salary": "$3,600",
+        "proj": "5.4"
+    },
+    {
+        "name": "Mack Hollins",
+        "injury": "",
+        "position": "WR",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "0.28",
+        "salary": "$3,000",
+        "proj": "5.4"
+    },
+    {
+        "name": "Josh Doctson",
+        "injury": "Q",
+        "position": "WR",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "0.84",
+        "salary": "$3,500",
+        "proj": "5.3"
+    },
+    {
+        "name": "Clive Walford",
+        "injury": "",
+        "position": "TE",
+        "team": "OAK",
+        "opp": "NYJ",
+        "own": "1.55",
+        "salary": "$2,500",
+        "proj": "5.3"
+    },
+    {
+        "name": "Josh Hill",
+        "injury": "",
+        "position": "TE",
+        "team": "NO",
+        "opp": "NE",
+        "own": "1.42",
+        "salary": "$2,500",
+        "proj": "5.2"
+    },
+    {
+        "name": "Detroit Lions",
+        "injury": "",
+        "position": "D",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "-",
+        "salary": "$3,300",
+        "proj": "5.2"
+    },
+    {
+        "name": "Dion Lewis",
+        "injury": "",
+        "position": "RB",
+        "team": "NE",
+        "opp": "@NO",
+        "own": "1.69",
+        "salary": "$3,400",
+        "proj": "5.2"
+    },
+    {
+        "name": "Brice Butler",
+        "injury": "",
+        "position": "WR",
+        "team": "DAL",
+        "opp": "@DEN",
+        "own": "0.24",
+        "salary": "$3,000",
+        "proj": "5.2"
+    },
+    {
+        "name": "Russell Shepard",
+        "injury": "",
+        "position": "WR",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "0.56",
+        "salary": "$3,500",
+        "proj": "5.1"
+    },
+    {
+        "name": "Cleveland Browns",
+        "injury": "",
+        "position": "D",
+        "team": "CLE",
+        "opp": "@BAL",
+        "own": "-",
+        "salary": "$2,400",
+        "proj": "5.1"
+    },
+    {
+        "name": "James Conner",
+        "injury": "",
+        "position": "RB",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "0.31",
+        "salary": "$4,500",
+        "proj": "5.1"
+    },
+    {
+        "name": "A.J. Derby",
+        "injury": "",
+        "position": "TE",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "0.81",
+        "salary": "$2,600",
+        "proj": "5"
+    },
+    {
+        "name": "Brent Celek",
+        "injury": "",
+        "position": "TE",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "0.53",
+        "salary": "$2,500",
+        "proj": "5"
+    },
+    {
+        "name": "Indianapolis Colts",
+        "injury": "",
+        "position": "D",
+        "team": "IND",
+        "opp": "ARI",
+        "own": "-",
+        "salary": "$2,300",
+        "proj": "5"
+    },
+    {
+        "name": "Virgil Green",
+        "injury": "",
+        "position": "TE",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "0.8",
+        "salary": "$2,700",
+        "proj": "5"
+    },
+    {
+        "name": "Green Bay Packers",
+        "injury": "",
+        "position": "D",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "-",
+        "salary": "$2,300",
+        "proj": "4.9"
+    },
+    {
+        "name": "Kenyan Drake",
+        "injury": "",
+        "position": "RB",
+        "team": "MIA",
+        "opp": "@LAC",
+        "own": "0.26",
+        "salary": "$4,000",
+        "proj": "4.9"
+    },
+    {
+        "name": "Nick Boyle",
+        "injury": "",
+        "position": "TE",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "1.75",
+        "salary": "$2,500",
+        "proj": "4.9"
+    },
+    {
+        "name": "Tyler Ervin",
+        "injury": "",
+        "position": "RB",
+        "team": "HOU",
+        "opp": "@CIN",
+        "own": "0",
+        "salary": "$3,000",
+        "proj": "4.7"
+    },
+    {
+        "name": "Damien Williams",
+        "injury": "",
+        "position": "RB",
+        "team": "MIA",
+        "opp": "@LAC",
+        "own": "0.11",
+        "salary": "$3,800",
+        "proj": "4.6"
+    },
+    {
+        "name": "T.J. Yeldon",
+        "injury": "",
+        "position": "RB",
+        "team": "JAX",
+        "opp": "TEN",
+        "own": "0.47",
+        "salary": "$3,900",
+        "proj": "4.6"
+    },
+    {
+        "name": "Richard Rodgers",
+        "injury": "",
+        "position": "TE",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "0.67",
+        "salary": "$2,700",
+        "proj": "4.6"
+    },
+    {
+        "name": "Albert Wilson",
+        "injury": "",
+        "position": "WR",
+        "team": "KC",
+        "opp": "PHI",
+        "own": "1.54",
+        "salary": "$3,300",
+        "proj": "4.4"
+    },
+    {
+        "name": "Laquon Treadwell",
+        "injury": "",
+        "position": "WR",
+        "team": "MIN",
+        "opp": "@PIT",
+        "own": "0.24",
+        "salary": "$3,300",
+        "proj": "4.4"
+    },
+    {
+        "name": "Chris Moore",
+        "injury": "",
+        "position": "WR",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "0.2",
+        "salary": "$3,000",
+        "proj": "4.4"
+    },
+    {
+        "name": "Cody Core",
+        "injury": "",
+        "position": "WR",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "0",
+        "salary": "$3,000",
+        "proj": "4.2"
+    },
+    {
+        "name": "Jarius Wright",
+        "injury": "",
+        "position": "WR",
+        "team": "MIN",
+        "opp": "@PIT",
+        "own": "0.26",
+        "salary": "$3,000",
+        "proj": "4.2"
+    },
+    {
+        "name": "Michael Campanaro",
+        "injury": "Q",
+        "position": "WR",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "0.58",
+        "salary": "$3,000",
+        "proj": "4.1"
+    },
+    {
+        "name": "Cordarrelle Patterson",
+        "injury": "",
+        "position": "WR",
+        "team": "OAK",
+        "opp": "NYJ",
+        "own": "0.54",
+        "salary": "$3,000",
+        "proj": "4.1"
+    },
+    {
+        "name": "Ricardo Louis",
+        "injury": "",
+        "position": "WR",
+        "team": "CLE",
+        "opp": "@BAL",
+        "own": "0.05",
+        "salary": "$3,000",
+        "proj": "4.1"
+    },
+    {
+        "name": "New York Jets",
+        "injury": "",
+        "position": "D",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "-",
+        "salary": "$2,000",
+        "proj": "4"
+    },
+    {
+        "name": "Trey Burton",
+        "injury": "",
+        "position": "TE",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "0.42",
+        "salary": "$2,500",
+        "proj": "4"
+    },
+    {
+        "name": "Malcolm Brown",
+        "injury": "",
+        "position": "RB",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "0.6",
+        "salary": "$3,900",
+        "proj": "4"
+    },
+    {
+        "name": "Matt Breida",
+        "injury": "",
+        "position": "RB",
+        "team": "SF",
+        "opp": "@SEA",
+        "own": "0.06",
+        "salary": "$3,800",
+        "proj": "3.9"
+    },
+    {
+        "name": "Justin Hardy",
+        "injury": "",
+        "position": "WR",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "0.43",
+        "salary": "$3,000",
+        "proj": "3.6"
+    },
+    {
+        "name": "Charone Peake",
+        "injury": "",
+        "position": "WR",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "0.08",
+        "salary": "$3,000",
+        "proj": "3.6"
+    },
+    {
+        "name": "Keelan Cole",
+        "injury": "",
+        "position": "WR",
+        "team": "JAX",
+        "opp": "TEN",
+        "own": "0.27",
+        "salary": "$3,000",
+        "proj": "3.6"
+    },
+    {
+        "name": "Brian Quick",
+        "injury": "",
+        "position": "WR",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "0.04",
+        "salary": "$3,000",
+        "proj": "3.6"
+    },
+    {
+        "name": "Jeff Heuerman",
+        "injury": "",
+        "position": "TE",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "0.16",
+        "salary": "$2,500",
+        "proj": "3.5"
+    },
+    {
+        "name": "Eli Rogers",
+        "injury": "",
+        "position": "WR",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "0.57",
+        "salary": "$3,600",
+        "proj": "3.4"
+    },
+    {
+        "name": "New Orleans Saints",
+        "injury": "",
+        "position": "D",
+        "team": "NO",
+        "opp": "NE",
+        "own": "-",
+        "salary": "$2,100",
+        "proj": "3.3"
+    },
+    {
+        "name": "Justin Hunter",
+        "injury": "",
+        "position": "WR",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "0.08",
+        "salary": "$3,000",
+        "proj": "3.2"
+    },
+    {
+        "name": "Jamaal Williams",
+        "injury": "",
+        "position": "RB",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "0.82",
+        "salary": "$4,400",
+        "proj": "3.2"
+    },
+    {
+        "name": "Dwayne Washington",
+        "injury": "",
+        "position": "RB",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "0.1",
+        "salary": "$3,800",
+        "proj": "3.2"
+    },
+    {
+        "name": "Chester Rogers",
+        "injury": "Q",
+        "position": "WR",
+        "team": "IND",
+        "opp": "ARI",
+        "own": "0.13",
+        "salary": "$3,000",
+        "proj": "3.1"
+    },
+    {
+        "name": "Darren Fells",
+        "injury": "",
+        "position": "TE",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "0.45",
+        "salary": "$2,500",
+        "proj": "3.1"
+    },
+    {
+        "name": "Trevor Davis",
+        "injury": "",
+        "position": "WR",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "0.22",
+        "salary": "$3,000",
+        "proj": "3.1"
+    },
+    {
+        "name": "Sammie Coates",
+        "injury": "",
+        "position": "WR",
+        "team": "CLE",
+        "opp": "@BAL",
+        "own": "0",
+        "salary": "$3,300",
+        "proj": "3.1"
+    },
+    {
+        "name": "Leonte Carroo",
+        "injury": "",
+        "position": "WR",
+        "team": "MIA",
+        "opp": "@LAC",
+        "own": "0.07",
+        "salary": "$3,000",
+        "proj": "3.1"
+    },
+    {
+        "name": "Jonnu Smith",
+        "injury": "",
+        "position": "TE",
+        "team": "TEN",
+        "opp": "@JAX",
+        "own": "0.29",
+        "salary": "$2,500",
+        "proj": "3.1"
+    },
+    {
+        "name": "Tyler Kroft",
+        "injury": "",
+        "position": "TE",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "0",
+        "salary": "$2,500",
+        "proj": "3.1"
+    },
+    {
+        "name": "Wendell Smallwood",
+        "injury": "",
+        "position": "RB",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "0.33",
+        "salary": "$3,800",
+        "proj": "3"
+    },
+    {
+        "name": "Rhett Ellison",
+        "injury": "",
+        "position": "TE",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "0.34",
+        "salary": "$2,500",
+        "proj": "3"
+    },
+    {
+        "name": "TJ Jones",
+        "injury": "",
+        "position": "WR",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "0.11",
+        "salary": "$3,000",
+        "proj": "3"
+    },
+    {
+        "name": "Matt Dayes",
+        "injury": "",
+        "position": "RB",
+        "team": "CLE",
+        "opp": "@BAL",
+        "own": "0.04",
+        "salary": "$3,000",
+        "proj": "3"
+    },
+    {
+        "name": "San Francisco 49ers",
+        "injury": "",
+        "position": "D",
+        "team": "SF",
+        "opp": "@SEA",
+        "own": "-",
+        "salary": "$2,300",
+        "proj": "3"
+    },
+    {
+        "name": "Adam Shaheen",
+        "injury": "",
+        "position": "TE",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "0.19",
+        "salary": "$2,500",
+        "proj": "3"
+    },
+    {
+        "name": "Cameron Artis-Payne",
+        "injury": "",
+        "position": "RB",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "0.15",
+        "salary": "$3,000",
+        "proj": "2.9"
+    },
+    {
+        "name": "Eddie Lacy",
+        "injury": "",
+        "position": "RB",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "1.15",
+        "salary": "$4,200",
+        "proj": "2.9"
+    },
+    {
+        "name": "Kamar Aiken",
+        "injury": "",
+        "position": "WR",
+        "team": "IND",
+        "opp": "ARI",
+        "own": "0.07",
+        "salary": "$3,000",
+        "proj": "2.9"
+    },
+    {
+        "name": "Josh Reynolds",
+        "injury": "",
+        "position": "WR",
+        "team": "LAR",
+        "opp": "WAS",
+        "own": "0.22",
+        "salary": "$3,000",
+        "proj": "2.8"
+    },
+    {
+        "name": "Trent Taylor",
+        "injury": "",
+        "position": "WR",
+        "team": "SF",
+        "opp": "@SEA",
+        "own": "0.01",
+        "salary": "$3,000",
+        "proj": "2.8"
+    },
+    {
+        "name": "Michael Roberts",
+        "injury": "",
+        "position": "TE",
+        "team": "DET",
+        "opp": "@NYG",
+        "own": "0.12",
+        "salary": "$2,500",
+        "proj": "2.8"
+    },
+    {
+        "name": "Arrelious Benn",
+        "injury": "",
+        "position": "WR",
+        "team": "JAX",
+        "opp": "TEN",
+        "own": "0.36",
+        "salary": "$3,000",
+        "proj": "2.8"
+    },
+    {
+        "name": "Anthony Fasano",
+        "injury": "",
+        "position": "TE",
+        "team": "MIA",
+        "opp": "@LAC",
+        "own": "0.26",
+        "salary": "$2,500",
+        "proj": "2.8"
+    },
+    {
+        "name": "Amara Darboh",
+        "injury": "",
+        "position": "WR",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "0.44",
+        "salary": "$3,000",
+        "proj": "2.8"
+    },
+    {
+        "name": "Marcedes Lewis",
+        "injury": "",
+        "position": "TE",
+        "team": "JAX",
+        "opp": "TEN",
+        "own": "0.75",
+        "salary": "$2,500",
+        "proj": "2.8"
+    },
+    {
+        "name": "Bennie Fowler",
+        "injury": "",
+        "position": "WR",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "0.47",
+        "salary": "$3,000",
+        "proj": "2.7"
+    },
+    {
+        "name": "Fozzy Whittaker",
+        "injury": "",
+        "position": "RB",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "0.18",
+        "salary": "$3,100",
+        "proj": "2.6"
+    },
+    {
+        "name": "Latavius Murray",
+        "injury": "",
+        "position": "RB",
+        "team": "MIN",
+        "opp": "@PIT",
+        "own": "0.08",
+        "salary": "$4,100",
+        "proj": "2.6"
+    },
+    {
+        "name": "Garrett Celek",
+        "injury": "",
+        "position": "TE",
+        "team": "SF",
+        "opp": "@SEA",
+        "own": "0.02",
+        "salary": "$2,500",
+        "proj": "2.6"
+    },
+    {
+        "name": "Alfred Morris",
+        "injury": "",
+        "position": "RB",
+        "team": "DAL",
+        "opp": "@DEN",
+        "own": "0.12",
+        "salary": "$4,500",
+        "proj": "2.3"
+    },
+    {
+        "name": "Levine Toilolo",
+        "injury": "",
+        "position": "TE",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "0.69",
+        "salary": "$2,500",
+        "proj": "2.3"
+    },
+    {
+        "name": "Shelton Gibson",
+        "injury": "",
+        "position": "WR",
+        "team": "PHI",
+        "opp": "@KC",
+        "own": "0.03",
+        "salary": "$3,000",
+        "proj": "2.2"
+    },
+    {
+        "name": "Elijah McGuire",
+        "injury": "",
+        "position": "RB",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "0.03",
+        "salary": "$3,500",
+        "proj": "2"
+    },
+    {
+        "name": "Juju Smith-Schuster",
+        "injury": "",
+        "position": "WR",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "0.13",
+        "salary": "$3,000",
+        "proj": "1.9"
+    },
+    {
+        "name": "Andre Roberts",
+        "injury": "",
+        "position": "WR",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "0.23",
+        "salary": "$3,000",
+        "proj": "1.9"
+    },
+    {
+        "name": "Luke Willson",
+        "injury": "",
+        "position": "TE",
+        "team": "SEA",
+        "opp": "SF",
+        "own": "0.7",
+        "salary": "$2,500",
+        "proj": "1.9"
+    },
+    {
+        "name": "Vance McDonald",
+        "injury": "Q",
+        "position": "TE",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "0.49",
+        "salary": "$2,600",
+        "proj": "1.8"
+    },
+    {
+        "name": "Samaje Perine",
+        "injury": "",
+        "position": "RB",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "0.12",
+        "salary": "$3,800",
+        "proj": "1.8"
+    },
+    {
+        "name": "Corey Grant",
+        "injury": "",
+        "position": "RB",
+        "team": "JAX",
+        "opp": "TEN",
+        "own": "0.05",
+        "salary": "$3,000",
+        "proj": "1.8"
+    },
+    {
+        "name": "Jeff Janis",
+        "injury": "",
+        "position": "WR",
+        "team": "GB",
+        "opp": "@ATL",
+        "own": "0.18",
+        "salary": "$3,300",
+        "proj": "1.8"
+    },
+    {
+        "name": "Chad Williams",
+        "injury": "",
+        "position": "WR",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "0.14",
+        "salary": "$3,000",
+        "proj": "1.8"
+    },
+    {
+        "name": "Taquan Mizzell",
+        "injury": "",
+        "position": "RB",
+        "team": "CHI",
+        "opp": "@TB",
+        "own": "0.02",
+        "salary": "$3,000",
+        "proj": "1.7"
+    },
+    {
+        "name": "Maxx Williams",
+        "injury": "",
+        "position": "TE",
+        "team": "BAL",
+        "opp": "CLE",
+        "own": "0.8",
+        "salary": "$2,500",
+        "proj": "1.7"
+    },
+    {
+        "name": "Chris Johnson",
+        "injury": "",
+        "position": "RB",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "0.22",
+        "salary": "$3,000",
+        "proj": "1.6"
+    },
+    {
+        "name": "Darrius Heyward-Bey",
+        "injury": "",
+        "position": "WR",
+        "team": "PIT",
+        "opp": "MIN",
+        "own": "0.08",
+        "salary": "$3,000",
+        "proj": "1.6"
+    },
+    {
+        "name": "Brittan Golden",
+        "injury": "",
+        "position": "WR",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "0.64",
+        "salary": "$3,000",
+        "proj": "1.5"
+    },
+    {
+        "name": "David Morgan",
+        "injury": "",
+        "position": "TE",
+        "team": "MIN",
+        "opp": "@PIT",
+        "own": "0.2",
+        "salary": "$2,500",
+        "proj": "1.4"
+    },
+    {
+        "name": "Jerell Adams",
+        "injury": "",
+        "position": "TE",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "0.15",
+        "salary": "$2,500",
+        "proj": "1.4"
+    },
+    {
+        "name": "Ed Dickson",
+        "injury": "",
+        "position": "TE",
+        "team": "CAR",
+        "opp": "BUF",
+        "own": "0.24",
+        "salary": "$2,500",
+        "proj": "1.4"
+    },
+    {
+        "name": "Isaiah McKenzie",
+        "injury": "",
+        "position": "WR",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "0.01",
+        "salary": "$3,000",
+        "proj": "1.3"
+    },
+    {
+        "name": "Chad Hansen",
+        "injury": "",
+        "position": "WR",
+        "team": "NYJ",
+        "opp": "@OAK",
+        "own": "0.02",
+        "salary": "$3,000",
+        "proj": "1.3"
+    },
+    {
+        "name": "Mack Brown",
+        "injury": "",
+        "position": "RB",
+        "team": "WAS",
+        "opp": "@LAR",
+        "own": "0.02",
+        "salary": "$3,000",
+        "proj": "1.3"
+    },
+    {
+        "name": "Austin Ekeler",
+        "injury": "",
+        "position": "RB",
+        "team": "LAC",
+        "opp": "MIA",
+        "own": "0.25",
+        "salary": "$3,000",
+        "proj": "1.2"
+    },
+    {
+        "name": "Cody Latimer",
+        "injury": "",
+        "position": "WR",
+        "team": "DEN",
+        "opp": "DAL",
+        "own": "0.02",
+        "salary": "$3,000",
+        "proj": "1.2"
+    },
+    {
+        "name": "Peyton Barber",
+        "injury": "",
+        "position": "RB",
+        "team": "TB",
+        "opp": "CHI",
+        "own": "0.13",
+        "salary": "$3,000",
+        "proj": "1.1"
+    },
+    {
+        "name": "Ryan Switzer",
+        "injury": "",
+        "position": "WR",
+        "team": "DAL",
+        "opp": "@DEN",
+        "own": "0.03",
+        "salary": "$3,000",
+        "proj": "1.1"
+    },
+    {
+        "name": "Orleans Darkwa",
+        "injury": "",
+        "position": "RB",
+        "team": "NYG",
+        "opp": "DET",
+        "own": "0.26",
+        "salary": "$3,400",
+        "proj": "1"
+    },
+    {
+        "name": "D.J. Foster",
+        "injury": "",
+        "position": "RB",
+        "team": "ARI",
+        "opp": "@IND",
+        "own": "0.13",
+        "salary": "$3,000",
+        "proj": "0.8"
+    },
+    {
+        "name": "Terron Ward",
+        "injury": "",
+        "position": "RB",
+        "team": "ATL",
+        "opp": "GB",
+        "own": "0.25",
+        "salary": "$3,000",
+        "proj": "0.7"
+    },
+    {
+        "name": "Alex Erickson",
+        "injury": "",
+        "position": "WR",
+        "team": "CIN",
+        "opp": "HOU",
+        "own": "0",
+        "salary": "$3,000",
+        "proj": "0.4"
+    },
+    {
+        "name": "Brandon Tate",
+        "injury": "",
+        "position": "WR",
+        "team": "BUF",
+        "opp": "@CAR",
+        "own": "0",
+        "salary": "$3,000",
+        "proj": "0.4"
+    }
+]

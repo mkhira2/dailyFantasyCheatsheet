@@ -1,4 +1,579 @@
-[
-  {"time":{"display":"2017-09-07 20:30:00","timestamp":1504830600},"team":"NEP","scheduleid":39609,"opponent":"vs. KCC","line":"-8.0","moneyline":"-460","overunder":47.5,"projected":27.75,"key":"home","teamid":11,"projectedchange":{"display":0,"value":0}},{"time":{"display":"2017-09-07 20:30:00","timestamp":1504830600},"team":"KCC","scheduleid":39609,"opponent":"@ NEP","line":"8.0","moneyline":"385","overunder":47.5,"projected":19.75,"key":"away","teamid":26,"projectedchange":{"display":-0.5,"value":-0.5}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"MIA","scheduleid":39610,"opponent":"vs. TBB","line":"2.5","moneyline":"120","overunder":41,"projected":19.25,"key":"home","teamid":10,"projectedchange":{"display":-2.75,"value":-2.75}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"TBB","scheduleid":39610,"opponent":"@ MIA","line":"-2.5","moneyline":"-140","overunder":41,"projected":21.75,"key":"away","teamid":24,"projectedchange":{"display":-1.75,"value":-1.75}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"TEN","scheduleid":39611,"opponent":"vs. OAK","line":"-3.0","moneyline":"-157","overunder":50.5,"projected":26.75,"key":"home","teamid":16,"projectedchange":{"display":"+1.25","value":1.25}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"OAK","scheduleid":39611,"opponent":"@ TEN","line":"3.0","moneyline":"137","overunder":50.5,"projected":23.75,"key":"away","teamid":27,"projectedchange":{"display":-2.75,"value":-2.75}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"DET","scheduleid":39612,"opponent":"vs. ARI","line":"2.5","moneyline":"118","overunder":48,"projected":22.75,"key":"home","teamid":6,"projectedchange":{"display":-2.75,"value":-2.75}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"ARI","scheduleid":39612,"opponent":"@ DET","line":"-2.5","moneyline":"-138","overunder":48,"projected":25.25,"key":"away","teamid":29,"projectedchange":{"display":"+2.25","value":2.25}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"CHI","scheduleid":39613,"opponent":"vs. ATL","line":"6.0","moneyline":"210","overunder":48,"projected":21,"key":"home","teamid":5,"projectedchange":{"display":-0.75,"value":-0.75}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"ATL","scheduleid":39613,"opponent":"@ CHI","line":"-6.0","moneyline":"-250","overunder":48,"projected":27,"key":"away","teamid":21,"projectedchange":{"display":-1.75,"value":-1.75}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"CLE","scheduleid":39614,"opponent":"vs. PIT","line":"8.5","moneyline":"370","overunder":47,"projected":19.25,"key":"home","teamid":3,"projectedchange":{"display":0,"value":0}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"PIT","scheduleid":39614,"opponent":"@ CLE","line":"-8.5","moneyline":"-440","overunder":47,"projected":27.75,"key":"away","teamid":4,"projectedchange":{"display":-0.5,"value":-0.5}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"HOU","scheduleid":39615,"opponent":"vs. JAC","line":"-5.0","moneyline":"-240","overunder":39.5,"projected":22.25,"key":"home","teamid":13,"projectedchange":{"display":0,"value":0}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"JAC","scheduleid":39615,"opponent":"@ HOU","line":"5.0","moneyline":"200","overunder":39.5,"projected":17.25,"key":"away","teamid":15,"projectedchange":{"display":-1,"value":-1}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"BUF","scheduleid":39616,"opponent":"vs. NYJ","line":"-8.0","moneyline":"-385","overunder":40,"projected":24,"key":"home","teamid":9,"projectedchange":{"display":-0.5,"value":-0.5}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"NYJ","scheduleid":39616,"opponent":"@ BUF","line":"8.0","moneyline":"325","overunder":40,"projected":16,"key":"away","teamid":12,"projectedchange":{"display":-2,"value":-2}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"CIN","scheduleid":39617,"opponent":"vs. BAL","line":"-3.0","moneyline":"-150","overunder":41.5,"projected":22.25,"key":"home","teamid":2,"projectedchange":{"display":-0.5,"value":-0.5}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"BAL","scheduleid":39617,"opponent":"@ CIN","line":"3.0","moneyline":"130","overunder":41.5,"projected":19.25,"key":"away","teamid":1,"projectedchange":{"display":-0.5,"value":-0.5}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"WAS","scheduleid":39618,"opponent":"vs. PHI","line":"1.0","moneyline":"104","overunder":47.5,"projected":23.25,"key":"home","teamid":20,"projectedchange":{"display":-2,"value":-2}},{"time":{"display":"2017-09-10 13:00:00","timestamp":1505062800},"team":"PHI","scheduleid":39618,"opponent":"@ WAS","line":"-1.0","moneyline":"-124","overunder":47.5,"projected":24.25,"key":"away","teamid":19,"projectedchange":{"display":"+1.5","value":1.5}},{"time":{"display":"2017-09-10 16:05:00","timestamp":1505073900},"team":"LAR","scheduleid":39619,"opponent":"vs. IND","line":"-4.0","moneyline":"-205","overunder":41.5,"projected":22.75,"key":"home","teamid":30,"projectedchange":{"display":"+0.75","value":0.75}},{"time":{"display":"2017-09-10 16:05:00","timestamp":1505073900},"team":"IND","scheduleid":39619,"opponent":"@ LAR","line":"4.0","moneyline":"175","overunder":41.5,"projected":18.75,"key":"away","teamid":14,"projectedchange":{"display":-6.25,"value":-6.25}},{"time":{"display":"2017-09-10 16:25:00","timestamp":1505075100},"team":"GBP","scheduleid":39620,"opponent":"vs. SEA","line":"-3.0","moneyline":"-165","overunder":51,"projected":27,"key":"home","teamid":7,"projectedchange":{"display":"+0.75","value":0.75}},{"time":{"display":"2017-09-10 16:25:00","timestamp":1505075100},"team":"SEA","scheduleid":39620,"opponent":"@ GBP","line":"3.0","moneyline":"145","overunder":51,"projected":24,"key":"away","teamid":32,"projectedchange":{"display":"+0.75","value":0.75}},{"time":{"display":"2017-09-10 16:25:00","timestamp":1505075100},"team":"SFO","scheduleid":39621,"opponent":"vs. CAR","line":"4.5","moneyline":"175","overunder":47.5,"projected":21.5,"key":"home","teamid":31,"projectedchange":{"display":"+0.25","value":0.25}},{"time":{"display":"2017-09-10 16:25:00","timestamp":1505075100},"team":"CAR","scheduleid":39621,"opponent":"@ SFO","line":"-4.5","moneyline":"-205","overunder":47.5,"projected":26,"key":"away","teamid":22,"projectedchange":{"display":-0.75,"value":-0.75}},{"time":{"display":"2017-09-10 20:30:00","timestamp":1505089800},"team":"DAL","scheduleid":39622,"opponent":"vs. NYG","line":"-4.0","moneyline":"-205","overunder":47.5,"projected":25.75,"key":"home","teamid":17,"projectedchange":{"display":-0.5,"value":-0.5}},{"time":{"display":"2017-09-10 20:30:00","timestamp":1505089800},"team":"NYG","scheduleid":39622,"opponent":"@ DAL","line":"4.0","moneyline":"175","overunder":47.5,"projected":21.75,"key":"away","teamid":18,"projectedchange":{"display":-0.5,"value":-0.5}},{"time":{"display":"2017-09-11 19:10:00","timestamp":1505171400},"team":"MIN","scheduleid":39623,"opponent":"vs. NOS","line":"-3.5","moneyline":"-165","overunder":48,"projected":25.75,"key":"home","teamid":8,"projectedchange":{"display":0,"value":0}},{"time":{"display":"2017-09-11 19:10:00","timestamp":1505171400},"team":"NOS","scheduleid":39623,"opponent":"@ MIN","line":"3.5","moneyline":"145","overunder":48,"projected":22.25,"key":"away","teamid":23,"projectedchange":{"display":0,"value":0}},{"time":{"display":"2017-09-11 22:20:00","timestamp":1505182800},"team":"DEN","scheduleid":39624,"opponent":"vs. LAC","line":"-3.5","moneyline":"-165","overunder":42.5,"projected":23,"key":"home","teamid":25,"projectedchange":{"display":-0.75,"value":-0.75}},{"time":{"display":"2017-09-11 22:20:00","timestamp":1505182800},"team":"LAC","scheduleid":39624,"opponent":"@ DEN","line":"3.5","moneyline":"145","overunder":42.5,"projected":19.5,"key":"away","teamid":28,"projectedchange":{"display":-0.75,"value":-0.75}}
+[{
+    "time": {
+      "display": "2017-09-14 20:25:00",
+      "timestamp": 1505435100
+    },
+    "team": "CIN",
+    "scheduleid": 39625,
+    "opponent": "vs. HOU",
+    "line": "-5.5",
+    "moneyline": "-245",
+    "overunder": 38,
+    "projected": 21.75,
+    "key": "home",
+    "teamid": 2,
+    "projectedchange": {
+      "display": 0,
+      "value": 0
+    }
+  }, {
+    "time": {
+      "display": "2017-09-14 20:25:00",
+      "timestamp": 1505435100
+    },
+    "team": "HOU",
+    "scheduleid": 39625,
+    "opponent": "@ CIN",
+    "line": "5.5",
+    "moneyline": "205",
+    "overunder": 38,
+    "projected": 16.25,
+    "key": "away",
+    "teamid": 13,
+    "projectedchange": {
+      "display": -0.5,
+      "value": -0.5
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "KCC",
+    "scheduleid": 39626,
+    "opponent": "vs. PHI",
+    "line": "-6.0",
+    "moneyline": "-250",
+    "overunder": 47.5,
+    "projected": 26.75,
+    "key": "home",
+    "teamid": 26,
+    "projectedchange": {
+      "display": "+0.75",
+      "value": 0.75
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "PHI",
+    "scheduleid": 39626,
+    "opponent": "@ KCC",
+    "line": "6.0",
+    "moneyline": "210",
+    "overunder": 47.5,
+    "projected": 20.75,
+    "key": "away",
+    "teamid": 19,
+    "projectedchange": {
+      "display": -0.75,
+      "value": -0.75
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "IND",
+    "scheduleid": 39627,
+    "opponent": "vs. ARI",
+    "line": "7.0",
+    "moneyline": "255",
+    "overunder": 44,
+    "projected": 18.5,
+    "key": "home",
+    "teamid": 14,
+    "projectedchange": {
+      "display": "+0.25",
+      "value": 0.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "ARI",
+    "scheduleid": 39627,
+    "opponent": "@ IND",
+    "line": "-7.0",
+    "moneyline": "-305",
+    "overunder": 44,
+    "projected": 25.5,
+    "key": "away",
+    "teamid": 29,
+    "projectedchange": {
+      "display": -0.25,
+      "value": -0.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "PIT",
+    "scheduleid": 39628,
+    "opponent": "vs. MIN",
+    "line": "-5.5",
+    "moneyline": "-240",
+    "overunder": 45,
+    "projected": 25.25,
+    "key": "home",
+    "teamid": 4,
+    "projectedchange": {
+      "display": "+21.75",
+      "value": 21.75
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "MIN",
+    "scheduleid": 39628,
+    "opponent": "@ PIT",
+    "line": "5.5",
+    "moneyline": "200",
+    "overunder": 45,
+    "projected": 19.75,
+    "key": "away",
+    "teamid": 8,
+    "projectedchange": {
+      "display": "+23.25",
+      "value": 23.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "BAL",
+    "scheduleid": 39629,
+    "opponent": "vs. CLE",
+    "line": "-8.0",
+    "moneyline": "-370",
+    "overunder": 39,
+    "projected": 23.5,
+    "key": "home",
+    "teamid": 1,
+    "projectedchange": {
+      "display": -0.75,
+      "value": -0.75
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "CLE",
+    "scheduleid": 39629,
+    "opponent": "@ BAL",
+    "line": "8.0",
+    "moneyline": "310",
+    "overunder": 39,
+    "projected": 15.5,
+    "key": "away",
+    "teamid": 3,
+    "projectedchange": {
+      "display": -1.25,
+      "value": -1.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "NOS",
+    "scheduleid": 39630,
+    "opponent": "vs. NEP",
+    "line": "6.0",
+    "moneyline": "235",
+    "overunder": 56,
+    "projected": 25,
+    "key": "home",
+    "teamid": 23,
+    "projectedchange": {
+      "display": "+1.25",
+      "value": 1.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "NEP",
+    "scheduleid": 39630,
+    "opponent": "@ NOS",
+    "line": "-6.0",
+    "moneyline": "-280",
+    "overunder": 56,
+    "projected": 31,
+    "key": "away",
+    "teamid": 11,
+    "projectedchange": {
+      "display": "+0.75",
+      "value": 0.75
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "TBB",
+    "scheduleid": 39631,
+    "opponent": "vs. CHI",
+    "line": "-7.0",
+    "moneyline": "-290",
+    "overunder": 43.5,
+    "projected": 25.25,
+    "key": "home",
+    "teamid": 24,
+    "projectedchange": {
+      "display": "+0.25",
+      "value": 0.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "CHI",
+    "scheduleid": 39631,
+    "opponent": "@ TBB",
+    "line": "7.0",
+    "moneyline": "245",
+    "overunder": 43.5,
+    "projected": 18.25,
+    "key": "away",
+    "teamid": 5,
+    "projectedchange": {
+      "display": -0.75,
+      "value": -0.75
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "CAR",
+    "scheduleid": 39632,
+    "opponent": "vs. BUF",
+    "line": "-7.0",
+    "moneyline": "-315",
+    "overunder": 43,
+    "projected": 25,
+    "key": "home",
+    "teamid": 22,
+    "projectedchange": {
+      "display": "+0.25",
+      "value": 0.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "BUF",
+    "scheduleid": 39632,
+    "opponent": "@ CAR",
+    "line": "7.0",
+    "moneyline": "265",
+    "overunder": 43,
+    "projected": 18,
+    "key": "away",
+    "teamid": 9,
+    "projectedchange": {
+      "display": "+0.25",
+      "value": 0.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "JAC",
+    "scheduleid": 39633,
+    "opponent": "vs. TEN",
+    "line": "0.0",
+    "moneyline": "0",
+    "overunder": 41.5,
+    "projected": 20.75,
+    "key": "home",
+    "teamid": 15,
+    "projectedchange": {
+      "display": -0.25,
+      "value": -0.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 13:00:00",
+      "timestamp": 1505667600
+    },
+    "team": "TEN",
+    "scheduleid": 39633,
+    "opponent": "@ JAC",
+    "line": "0.0",
+    "moneyline": "0",
+    "overunder": 41.5,
+    "projected": 20.75,
+    "key": "away",
+    "teamid": 16,
+    "projectedchange": {
+      "display": -1.75,
+      "value": -1.75
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 16:05:00",
+      "timestamp": 1505678700
+    },
+    "team": "OAK",
+    "scheduleid": 39634,
+    "opponent": "vs. NYJ",
+    "line": "-13.5",
+    "moneyline": "-850",
+    "overunder": 43.5,
+    "projected": 28.5,
+    "key": "home",
+    "teamid": 27,
+    "projectedchange": {
+      "display": 0,
+      "value": 0
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 16:05:00",
+      "timestamp": 1505678700
+    },
+    "team": "NYJ",
+    "scheduleid": 39634,
+    "opponent": "@ OAK",
+    "line": "13.5",
+    "moneyline": "635",
+    "overunder": 43.5,
+    "projected": 15,
+    "key": "away",
+    "teamid": 12,
+    "projectedchange": {
+      "display": 0,
+      "value": 0
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 16:05:00",
+      "timestamp": 1505678700
+    },
+    "team": "LAC",
+    "scheduleid": 39635,
+    "opponent": "vs. MIA",
+    "line": "-3.5",
+    "moneyline": "-180",
+    "overunder": 45.5,
+    "projected": 24.5,
+    "key": "home",
+    "teamid": 28,
+    "projectedchange": {
+      "display": -0.25,
+      "value": -0.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 16:05:00",
+      "timestamp": 1505678700
+    },
+    "team": "MIA",
+    "scheduleid": 39635,
+    "opponent": "@ LAC",
+    "line": "3.5",
+    "moneyline": "160",
+    "overunder": 45.5,
+    "projected": 21,
+    "key": "away",
+    "teamid": 10,
+    "projectedchange": {
+      "display": "+0.75",
+      "value": 0.75
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 16:25:00",
+      "timestamp": 1505679900
+    },
+    "team": "SEA",
+    "scheduleid": 39636,
+    "opponent": "vs. SFO",
+    "line": "-14.0",
+    "moneyline": "-825",
+    "overunder": 42,
+    "projected": 28,
+    "key": "home",
+    "teamid": 32,
+    "projectedchange": {
+      "display": 0,
+      "value": 0
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 16:25:00",
+      "timestamp": 1505679900
+    },
+    "team": "SFO",
+    "scheduleid": 39636,
+    "opponent": "@ SEA",
+    "line": "14.0",
+    "moneyline": "625",
+    "overunder": 42,
+    "projected": 14,
+    "key": "away",
+    "teamid": 31,
+    "projectedchange": {
+      "display": -1,
+      "value": -1
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 16:25:00",
+      "timestamp": 1505679900
+    },
+    "team": "LAR",
+    "scheduleid": 39637,
+    "opponent": "vs. WAS",
+    "line": "-3.0",
+    "moneyline": "-145",
+    "overunder": 46,
+    "projected": 24.5,
+    "key": "home",
+    "teamid": 30,
+    "projectedchange": {
+      "display": "+0.25",
+      "value": 0.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 16:25:00",
+      "timestamp": 1505679900
+    },
+    "team": "WAS",
+    "scheduleid": 39637,
+    "opponent": "@ LAR",
+    "line": "3.0",
+    "moneyline": "125",
+    "overunder": 46,
+    "projected": 21.5,
+    "key": "away",
+    "teamid": 20,
+    "projectedchange": {
+      "display": -0.25,
+      "value": -0.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 16:25:00",
+      "timestamp": 1505679900
+    },
+    "team": "DEN",
+    "scheduleid": 39638,
+    "opponent": "vs. DAL",
+    "line": "2.0",
+    "moneyline": "117",
+    "overunder": 42,
+    "projected": 20,
+    "key": "home",
+    "teamid": 25,
+    "projectedchange": {
+      "display": -0.5,
+      "value": -0.5
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 16:25:00",
+      "timestamp": 1505679900
+    },
+    "team": "DAL",
+    "scheduleid": 39638,
+    "opponent": "@ DEN",
+    "line": "-2.0",
+    "moneyline": "-137",
+    "overunder": 42,
+    "projected": 22,
+    "key": "away",
+    "teamid": 17,
+    "projectedchange": {
+      "display": -0.5,
+      "value": -0.5
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 20:30:00",
+      "timestamp": 1505694600
+    },
+    "team": "ATL",
+    "scheduleid": 39639,
+    "opponent": "vs. GBP",
+    "line": "-3.0",
+    "moneyline": "-155",
+    "overunder": 55.5,
+    "projected": 29.25,
+    "key": "home",
+    "teamid": 21,
+    "projectedchange": {
+      "display": "+1.25",
+      "value": 1.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-17 20:30:00",
+      "timestamp": 1505694600
+    },
+    "team": "GBP",
+    "scheduleid": 39639,
+    "opponent": "@ ATL",
+    "line": "3.0",
+    "moneyline": "135",
+    "overunder": 55.5,
+    "projected": 26.25,
+    "key": "away",
+    "teamid": 7,
+    "projectedchange": {
+      "display": "+0.75",
+      "value": 0.75
+    }
+  }, {
+    "time": {
+      "display": "2017-09-18 20:30:00",
+      "timestamp": 1505781000
+    },
+    "team": "NYG",
+    "scheduleid": 39640,
+    "opponent": "vs. DET",
+    "line": "-3.0",
+    "moneyline": "-155",
+    "overunder": 41.5,
+    "projected": 22.25,
+    "key": "home",
+    "teamid": 18,
+    "projectedchange": {
+      "display": -1.25,
+      "value": -1.25
+    }
+  }, {
+    "time": {
+      "display": "2017-09-18 20:30:00",
+      "timestamp": 1505781000
+    },
+    "team": "DET",
+    "scheduleid": 39640,
+    "opponent": "@ NYG",
+    "line": "3.0",
+    "moneyline": "135",
+    "overunder": 41.5,
+    "projected": 19.25,
+    "key": "away",
+    "teamid": 6,
+    "projectedchange": {
+      "display": -0.75,
+      "value": -0.75
+    }
+  }
 
 ]

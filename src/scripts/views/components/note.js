@@ -8,7 +8,7 @@ var Note = React.createClass({
     render: function() {
   	     return (
       		<div>
-                <p className="note">Red headers indicate stats/grades reflective of 2016 season</p>
+                <p className="note"></p>
       		</div>
   	     )
      }

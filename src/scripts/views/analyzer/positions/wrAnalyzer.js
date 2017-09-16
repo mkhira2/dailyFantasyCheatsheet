@@ -55,14 +55,14 @@ var Headers = React.createClass({
     				<th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
     				<th><span id='th-pointer' data-tip="Vegas Game Total">G/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
     				<th><span id='th-pointer' data-tip="Vegas Team Total">T/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th  className='notice'  id='break'><span id='th-pointer' data-tip="Defense Vs. WR Grade<br>(Based on Fantasy Points<br>Against Position)">DvWR</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th className='notice' ><span id='th-pointer' data-tip="Wide Receiver Defense DVOA<br>(by Fantasy Outsiders)<br><br>*2016 Rating<br>Will be update after<br>Week 4">DVOA</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th className='notice'  id='break'><span id='th-pointer' data-tip="Receiving Yards<br>Per Game">ReYD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th className='notice' ><span id='th-pointer' data-tip="Receptions<br>Per Game">REC/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th className='notice' ><span id='th-pointer' data-tip="Targets<br>Per Game">TAR/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th className='notice' ><span id='th-pointer' data-tip="Marketshare %<br>for Team Targets">TAR/MK</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th className='notice' ><span id='th-pointer' data-tip="Receiving<br>Touchdowns Per Game">ReTD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th className='notice' ><span id='th-pointer' data-tip="Redzone<br>Targets Per Game">RZ/TAR</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th  id='break'><span id='th-pointer' data-tip="Defense Vs. WR Grade<br>(Based on Fantasy Points<br>Against Position)">DvWR</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Wide Receiver Defense DVOA<br>(by Fantasy Outsiders)<br><br>*2016 Rating<br>Will be update after<br>Week 4">DVOA</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th id='break'><span id='th-pointer' data-tip="Receiving Yards<br>Per Game">ReYD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Receptions<br>Per Game">REC/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Targets<br>Per Game">TAR/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Marketshare %<br>for Team Targets">TAR/MK</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+            <th><span id='th-pointer' data-tip="Receiving<br>Touchdowns Per Game">ReTD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+            <th><span id='th-pointer' data-tip="Redzone<br>Targets Per Game">RZ/TAR</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 	        </tr>
       	</thead>
     )
@@ -724,7 +724,7 @@ var Matchup = React.createClass({
 	      backgroundColor: "#F75E60",
 	    }
 	    var highlightWhite = {
-	      color: "#fff",
+	      color: "#000",
 	    }
 
 	    if (num === "F") {
@@ -762,7 +762,7 @@ var Matchup = React.createClass({
 		        </td>
 	     	)
 	    }
-	    if (num === " ") {
+	    if (num === "N/A") {
 	     	return (
 		        <td style={highlightWhite} id='break'>
 		          {this.props.matchup}

@@ -13,30 +13,30 @@ import WRAnalyzer from './positions/wrAnalyzer'
 import TEAnalyzer from './positions/teAnalyzer'
 import DFAnalyzer from './positions/dfAnalyzer'
 
-var seasonQBData = require('../../data.json').lastSeasonQBdata
-var seasonRBData = require('../../data.json').lastSeasonRBdata
-var seasonWRData = require('../../data.json').lastSeasonWRdata
-var seasonTEData = require('../../data.json').lastSeasonTEdata
-var seasonDFData = require('../../data.json').lastSeasonDFdata
+var seasonQBData = require('../../data.json').qbdata
+var seasonRBData = require('../../data.json').rbdata
+var seasonWRData = require('../../data.json').wrdata
+var seasonTEData = require('../../data.json').tedata
+var seasonDFData = require('../../data.json').dfdata
 
-var qbDefenseLastSeason = require('../../data.json').qbDefenseLastSeason
-var rbDefenseLastSeason = require('../../data.json').rbDefenseLastSeason
-var wrDefenseLastSeason = require('../../data.json').wrDefenseLastSeason
-var teDefenseLastSeason = require('../../data.json').teDefenseLastSeason
+var qbDefense = require('../../data.json').qbDefense
+var rbDefense = require('../../data.json').rbDefense
+var wrDefense = require('../../data.json').wrDefense
+var teDefense = require('../../data.json').teDefense
 
 var lines = require('../../../../data/lines.json')
 
-var proj = require('../../../../data/player_projections_w1.json')
+var proj = require('../../../../data/player_projections_w2.json')
 
 import CheatsheetModal from './../components/cheatsheetModal'
 
 
 var Analyzer = React.createClass({
 	componentWillMount: function() {
-		ACTIONS.qbAnalyzer(seasonQBData, lines, qbDefenseLastSeason, proj)
-		ACTIONS.rbAnalyzer(seasonRBData, lines, rbDefenseLastSeason, proj)
-		ACTIONS.wrAnalyzer(seasonWRData, lines, wrDefenseLastSeason, proj)
-		ACTIONS.teAnalyzer(seasonTEData, lines, teDefenseLastSeason, proj)
+		ACTIONS.qbAnalyzer(seasonQBData, lines, qbDefense, proj)
+		ACTIONS.rbAnalyzer(seasonRBData, lines, rbDefense, proj)
+		ACTIONS.wrAnalyzer(seasonWRData, lines, wrDefense, proj)
+		ACTIONS.teAnalyzer(seasonTEData, lines, teDefense, proj)
 		ACTIONS.dfAnalyzer(seasonDFData, lines, proj)
     	STORE.on('dataUpdated', () => {
 	      this.setState(STORE.data)

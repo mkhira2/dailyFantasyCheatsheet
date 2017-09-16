@@ -7,11 +7,11 @@ import $ from 'jquery'
 import User from './models/userModel'
 
 var dvoa = require('../../data/team_defense_dvoa.json')
-var seasonQBData = require('./data.json').lastSeasonQBdata
-var seasonRBData = require('./data.json').lastSeasonRBdata
-var seasonWRData = require('./data.json').lastSeasonWRdata
-var seasonTEData = require('./data.json').lastSeasonTEdata
-var seasonDFData = require('./data.json').lastSeasonDFdata
+var seasonQBData = require('./data.json').qbdata
+var seasonRBData = require('./data.json').rbdata
+var seasonWRData = require('./data.json').wrdata
+var seasonTEData = require('./data.json').tedata
+var seasonDFData = require('./data.json').dfdata
 
 var ACTIONS = {
 	//============================================//
@@ -91,13 +91,14 @@ var ACTIONS = {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
-	            if (qbs[i].opp === "N\/A") {
-	            	newObj["matchup"] = " "
-	            }
+              // Temporary for WEEK 2 ONLY!
+              if (qbs[i].opp.substr(qbs[i].opp.length - 3) === "MIA" || qbs[i].opp.substr(qbs[i].opp.length - 3) === "TBB") {
+                newObj["matchup"] = "N/A"
+              }
 	        }
           for (var j = 0; j < dvoaResults.length;j++) {
              if (qbs[i].opp.substr(qbs[i].opp.length - 3) === dvoaResults[j].team) {
-	                newObj["dvoa_pass_rank"] = dvoaResults[j].pass_rank
+	                newObj["dvoa_pass_rank"] = dvoaResults[j].pass_def
 	            }
 	        }
           for (var j = 0; j < proj.length;j++) {
@@ -194,13 +195,14 @@ var ACTIONS = {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
-	            if (rbs[i].opp === "N\/A") {
-	            	newObj["matchup"] = " "
-	            }
+              // Temporary for WEEK 2 ONLY!
+              if (rbs[i].opp.substr(rbs[i].opp.length - 3) === "MIA" || rbs[i].opp.substr(rbs[i].opp.length - 3) === "TBB") {
+                newObj["matchup"] = "N/A"
+              }
 	        }
           for (var j = 0; j < dvoaResults.length;j++) {
              if (rbs[i].opp.substr(rbs[i].opp.length - 3) === dvoaResults[j].team) {
-	                newObj["dvoa_rush_rank"] = dvoaResults[j].rush_rank
+	                newObj["dvoa_rush_rank"] = dvoaResults[j].rush_def
 	            }
 	        }
           for (var j = 0; j < proj.length;j++) {
@@ -299,13 +301,14 @@ var ACTIONS = {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
-	            if (wrs[i].opp === "N\/A") {
-	            	newObj["matchup"] = " "
-	            }
+              // Temporary for WEEK 2 ONLY!
+              if (wrs[i].opp.substr(wrs[i].opp.length - 3) === "MIA" || wrs[i].opp.substr(wrs[i].opp.length - 3) === "TBB") {
+                newObj["matchup"] = "N/A"
+              }
 	        }
           for (var j = 0; j < dvoaResults.length;j++) {
              if (wrs[i].opp.substr(wrs[i].opp.length - 3) === dvoaResults[j].team) {
-	                newObj["dvoa_pass_rank"] = dvoaResults[j].pass_rank
+	                newObj["dvoa_pass_rank"] = dvoaResults[j].pass_def
 	            }
 	        }
           for (var j = 0; j < proj.length;j++) {
@@ -355,9 +358,8 @@ var ACTIONS = {
 	        newObj["player"] = tes[i].player
 	        newObj["team"] = this.getTeamName(tes[i].team)
           newObj["teamAbb"] = tes[i].team
-	        newObj["opp"] = tes[i].opp
 	        if (tes[i].opp === "N\/A") {
-	        	newObj["opp"] = "Bye Week"
+	        	newObj["opp"] = "N/A"
 	        } else {
 	        	newObj["opp"] = tes[i].opp
 	        }
@@ -404,13 +406,14 @@ var ACTIONS = {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
-	            if (tes[i].opp === "N\/A") {
-	            	newObj["matchup"] = " "
-	            }
+              // Temporary for WEEK 2 ONLY!
+              if (tes[i].opp.substr(tes[i].opp.length - 3) === "MIA" || tes[i].opp.substr(tes[i].opp.length - 3) === "TBB" || tes[i].opp === "N/A") {
+                newObj["matchup"] = "N/A"
+              }
 	        }
           for (var j = 0; j < dvoaResults.length;j++) {
              if (tes[i].opp.substr(tes[i].opp.length - 3) === dvoaResults[j].team) {
-                  newObj["dvoa_pass_rank"] = dvoaResults[j].pass_rank
+                  newObj["dvoa_pass_rank"] = dvoaResults[j].pass_def
               }
           }
           for (var j = 0; j < proj.length;j++) {
