@@ -33,6 +33,9 @@ var DFpicks = React.createClass({
 })
 
 var Headers = React.createClass({
+  componentDidMount: function() {
+    $("#complete").tablesorter();
+  },
 	render: function() {
 		return (
 			<thead className='stat-container'>
@@ -43,7 +46,7 @@ var Headers = React.createClass({
           <th><span id='th-pointer' data-tip="DraftKings Salary">SAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
           <th id='break'><span id='th-pointer' data-tip="Projection">PROJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
       <th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th><span id='th-pointer' data-tip="Vegas Team Total">T/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+      <th><span id='th-pointer' data-tip="Vegas Opp Total">OPP/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
       <th id='break'><span id='th-pointer' data-tip="Defensive<br>Touchdowns">DEF/TD</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
       <th><span id='th-pointer' data-tip="Interceptions">INTS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
       <th><span id='th-pointer' data-tip="Fumble Recoveries">FUM REC</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
@@ -68,7 +71,7 @@ var Body = React.createClass({
                 <td>{player.salary}</td>
                 <td>{player.proj}</td>
                 <td>{(player.line)}</td>
-                <td>{(player.teamTotal)}</td>
+                <td>{(player.oppTotal)}</td>
                 <td>{numeral(player.deftd).format('0')}</td>
         				<td>{numeral(player.int).format('0')}</td>
         				<td>{numeral(player.fumr).format('0')}</td>

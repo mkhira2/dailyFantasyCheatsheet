@@ -487,6 +487,7 @@ var ACTIONS = {
                   newObj["day"] = moment(arr2[j].time.display).format('ddd')
 	                newObj["line"] = arr2[j].line
 	                newObj["teamTotal"] = (arr2[j].overunder/2)-(arr2[j].line/2)
+                  newObj["oppTotal"] = (arr2[j].overunder/2)+(arr2[j].line/2)
 	                newObj["gameTotal"] = arr2[j].overunder
 	            }
 	        }
@@ -673,7 +674,7 @@ var ACTIONS = {
       var line = parseInt(df[i].line)
       var currency = df[i].salary
       var salary = Number(currency.replace(/[^0-9\.-]+/g,""));
-      if (line < 0 && salary > 3100 && salary < 3300) {
+      if (line < 0 && salary > 0 && salary < 3100 && df[i].oppTotal < 22) {
         dfPicksArr.push(df[i])
       }
     }

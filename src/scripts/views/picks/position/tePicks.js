@@ -33,6 +33,9 @@ var TEpicks = React.createClass({
 })
 
 var Headers = React.createClass({
+  componentDidMount: function() {
+    $("#complete").tablesorter();
+  },
 	render: function() {
 		return (
 			<thead className='stat-container'>
