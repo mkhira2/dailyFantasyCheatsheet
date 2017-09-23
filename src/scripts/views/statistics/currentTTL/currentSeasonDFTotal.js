@@ -46,16 +46,16 @@ var Headers = React.createClass({
     return (
       	<thead>
 	        <tr>
-				<th id='widen-th'>PLAYER<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>GP<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>SACK<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>BLK<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>INT<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>FUMR<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>SFTY<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>DEFTD<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RETTD<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>FPTS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th id='widen-th'>PLAYER<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th>GP<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th>SACK<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th>BLK<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th>INT<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th>FUMR<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th>SFTY<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th>DEFTD<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th>RETTD<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th>FPTS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
 	        </tr>
       	</thead>
     )

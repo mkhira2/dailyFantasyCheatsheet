@@ -46,14 +46,14 @@ var Headers = React.createClass({
           <th id='shrink-th'><span id='th-pointer' data-tip="Injuries">INJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
           <th><span id='th-pointer' data-tip="DraftKings Salary">SAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
           <th id='break'><span id='th-pointer' data-tip="Projection">PROJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th><span id='th-pointer' data-tip="Ownage %<br>(by Rotowire)">OWN</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th><span id='th-pointer' data-tip="Vegas Team Total">T/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th id='break'><span id='th-pointer' data-tip="Defense Vs. QB Grade<br>(Based on Fantasy Points<br>Against Position)">DvQB</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th><span id='th-pointer' data-tip="Pass Defense DVOA<br>(by Fantasy Outsiders)<br><br>*2016 Rating<br>Will be update after<br>Week 4">DVOA</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th id='break'><span id='th-pointer' data-tip="Total Touchdowns<br>Per Game">TD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th><span id='th-pointer' data-tip="Passing Touchdowns<br>Per Game">PTD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-      <th><span id='th-pointer' data-tip="Touchdowns<br>Per Attempt">TD%</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Ownage %<br>(by Rotowire)">OWN</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Vegas Team Total">T/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th id='break'><span id='th-pointer' data-tip="Defense Vs. QB Grade<br>(Based on Fantasy Points<br>Against Position)">DvQB</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Pass Defense DVOA<br>(by Fantasy Outsiders)<br><br>*2016 Rating<br>Will be update after<br>Week 4">DVOA</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th id='break'><span id='th-pointer' data-tip="Total Touchdowns<br>Per Game">TD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Passing Touchdowns<br>Per Game">PTD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Touchdowns<br>Per Attempt">TD%</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
         </tr>
 	    </thead>
 	  )
