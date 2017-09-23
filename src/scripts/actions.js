@@ -91,14 +91,10 @@ var ACTIONS = {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
-              // Temporary for WEEK 2 ONLY!
-              if (qbs[i].opp.substr(qbs[i].opp.length - 3) === "MIA" || qbs[i].opp.substr(qbs[i].opp.length - 3) === "TBB") {
-                newObj["matchup"] = "N/A"
-              }
 	        }
           for (var j = 0; j < dvoaResults.length;j++) {
              if (qbs[i].opp.substr(qbs[i].opp.length - 3) === dvoaResults[j].team) {
-	                newObj["dvoa_pass_rank"] = dvoaResults[j].pass_def
+	                newObj["dvoa_pass_rank"] = dvoaResults[j].pass_rank
 	            }
 	        }
           for (var j = 0; j < proj.length;j++) {
@@ -195,14 +191,11 @@ var ACTIONS = {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
-              // Temporary for WEEK 2 ONLY!
-              if (rbs[i].opp.substr(rbs[i].opp.length - 3) === "MIA" || rbs[i].opp.substr(rbs[i].opp.length - 3) === "TBB") {
-                newObj["matchup"] = "N/A"
-              }
+
 	        }
           for (var j = 0; j < dvoaResults.length;j++) {
              if (rbs[i].opp.substr(rbs[i].opp.length - 3) === dvoaResults[j].team) {
-	                newObj["dvoa_rush_rank"] = dvoaResults[j].rush_def
+	                newObj["dvoa_rush_rank"] = dvoaResults[j].rush_rank
 	            }
 	        }
           for (var j = 0; j < proj.length;j++) {
@@ -301,14 +294,11 @@ var ACTIONS = {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
-              // Temporary for WEEK 2 ONLY!
-              if (wrs[i].opp.substr(wrs[i].opp.length - 3) === "MIA" || wrs[i].opp.substr(wrs[i].opp.length - 3) === "TBB") {
-                newObj["matchup"] = "N/A"
-              }
+
 	        }
           for (var j = 0; j < dvoaResults.length;j++) {
              if (wrs[i].opp.substr(wrs[i].opp.length - 3) === dvoaResults[j].team) {
-	                newObj["dvoa_pass_rank"] = dvoaResults[j].pass_def
+	                newObj["dvoa_pass_rank"] = dvoaResults[j].pass_rank
 	            }
 	        }
           for (var j = 0; j < proj.length;j++) {
@@ -406,14 +396,11 @@ var ACTIONS = {
 	                	newObj["matchup"] = "F"
 	                }
 	            }
-              // Temporary for WEEK 2 ONLY!
-              if (tes[i].opp.substr(tes[i].opp.length - 3) === "MIA" || tes[i].opp.substr(tes[i].opp.length - 3) === "TBB" || tes[i].opp === "N/A") {
-                newObj["matchup"] = "N/A"
-              }
+
 	        }
           for (var j = 0; j < dvoaResults.length;j++) {
              if (tes[i].opp.substr(tes[i].opp.length - 3) === dvoaResults[j].team) {
-                  newObj["dvoa_pass_rank"] = dvoaResults[j].pass_def
+                  newObj["dvoa_pass_rank"] = dvoaResults[j].pass_rank
               }
           }
           for (var j = 0; j < proj.length;j++) {

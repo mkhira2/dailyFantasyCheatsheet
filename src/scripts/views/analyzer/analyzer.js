@@ -26,7 +26,7 @@ var teDefense = require('../../data.json').teDefense
 
 var lines = require('../../../../data/lines.json')
 
-var proj = require('../../../../data/player_projections_w2.json')
+var proj = require('../../../../data/player_projections_w3.json')
 
 import CheatsheetModal from './../components/cheatsheetModal'
 

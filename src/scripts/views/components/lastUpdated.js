@@ -4,7 +4,7 @@ var LastUpdated = React.createClass({
   render: function() {
   	return (
   		<div>
-  			<p className="last-updated">Last Updated: <span className='last-updated-date'>Saturday, September 16th</span></p>
+  			<p className="last-updated">Last Updated: <span className='last-updated-date'>Saturday, September 22nd</span></p>
   		</div>
   	)
 	}

@@ -768,6 +768,11 @@ var Matchup = React.createClass({
 		        </td>
 	     	)
 	    }
+      else {
+	     	return (
+		        null
+	     	)
+	    }
 	}
 })
 
