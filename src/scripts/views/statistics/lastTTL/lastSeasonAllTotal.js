@@ -3,6 +3,7 @@ import Backbone from 'backbone'
 import $ from 'jquery'
 import Tablesorter from 'tablesorter'
 import STORE from '../../../store'
+import ReactTooltip from 'react-tooltip'
 
 var lastSeasonAllData = require('../../../data.json').lastSeasonAlldata
 
@@ -20,6 +21,7 @@ var LastSeasonAllTotal = React.createClass({
 						<Body  data={lastSeasonAllData}/>
 			        </table>
 	      		</div>
+	      <ReactTooltip place="bottom" effect="solid" multiline={true} offset={{bottom: 20, right: 9}}/>
 	      </div>
 	    ) 
 	}
@@ -33,23 +35,23 @@ var Headers = React.createClass({
     return (
       	<thead>
 	        <tr>
-				<th id='widen-th' >PLAYER<i className="fa fa-caret-down" aria-hidden="true"></i></th> 
-				<th>TEAM<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>POS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>GP<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>PATT<i className="fa fa-caret-down" aria-hidden="true"></i></th> 
-				<th>PCMP<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>PYDS<i className="fa fa-caret-down" aria-hidden="true"></i></th> 
-				<th>PTDS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>PINT<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>PA%<i className="fa fa-caret-down" aria-hidden="true"></i></th> 
-				<th>RUATT<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RUYDS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RUTDS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>REC<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>REYRD<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RETDS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>FPTS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='widen-th'><span id='th-pointer' data-tip="Player Name">PLAYER</span><i className="fa fa-caret-down" aria-hidden="true"></i></th> 
+				<th><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Player Position">POS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Games Played">GP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Pass Attempts">PATT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th> 
+				<th><span id='th-pointer' data-tip="Pass Completions">PCMP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Passing Yards">PYDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th> 
+				<th><span id='th-pointer' data-tip="Passing Touchdowns">PTDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Interceptions">PINT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Play Action %">PA%</span><i className="fa fa-caret-down" aria-hidden="true"></i></th> 
+				<th><span id='th-pointer' data-tip="Rushing Attempts">RUATT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Rushing Yards">RUYDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Rushing Touchdowns">RUTDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Receptions">REC</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Receiving Yards">REYRD</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Receiving Touchdowns">RETDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Fantasy Points">FPTS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 	        </tr>
       	</thead>
     )
