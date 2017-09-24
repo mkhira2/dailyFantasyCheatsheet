@@ -99,23 +99,23 @@ var Day = React.createClass({
     	var day = this.props.day
 	    var highlightGreen = {
 	      color: "#58b670",
-        fontWeight: "bold"
+          fontWeight: "bold"
 	    }
 	    var highlightLightGreen = {
 	      color: "#add075",
-        fontWeight: "bold"
+          fontWeight: "bold"
 	    }
 	    var highlightLightNuetral = {
 	      color: "#ffff99",
-        fontWeight: "bold"
+          fontWeight: "bold"
 	    }
 	    var highlightLightRed = {
 	      color: "#f98567",
-        fontWeight: "bold"
+          fontWeight: "bold"
 	    }
 	    var highlightRed = {
 	      color: "#F75E60",
-        fontWeight: "bold"
+          fontWeight: "bold"
 	    }
 	    var highlightWhite = {
 	      color: "#fff",
