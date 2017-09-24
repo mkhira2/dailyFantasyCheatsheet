@@ -3,6 +3,7 @@ import Backbone from 'backbone'
 import $ from 'jquery'
 import Tablesorter from 'tablesorter'
 import STORE from '../../../store'
+import ReactTooltip from 'react-tooltip'
 
 var seasonDFData = require('../../../data.json').dfdata
 
@@ -31,6 +32,7 @@ var CurrentSeasonDFPPG = React.createClass({
 						<Body  data={seasonDFData}/>
 			        </table>
 	      		</div>
+            <ReactTooltip place="bottom" effect="solid" multiline={true} offset={{bottom: 20, right: 9}}/>
 	      </div>
 	    ) 
 	}
@@ -44,16 +46,16 @@ var Headers = React.createClass({
     return (
       	<thead>
 	        <tr>
-				<th id='widen-th'>PLAYER<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>GP<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>SACK<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>BLK<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>INT<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>FUMR<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>SFTY<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>DEFTD<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RETTD<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>FPTS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th id='widen-th'><span id='th-pointer' data-tip="Player Name">PLAYER</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Games Played">GP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Quarterback Sacks">SACK</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Field Goals Blocked">BLK</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Interceptions">INT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Fumble Recoveries">FUMR</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Safeties">SFTY</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Defensive Touchdowns">DEFTD</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Kickoffs Returned for Touchdown">RETTD</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+    				<th><span id='th-pointer' data-tip="Fantasy Points">FPTS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 	        </tr>
       	</thead>
     )

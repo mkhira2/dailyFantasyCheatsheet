@@ -3,6 +3,7 @@ import Backbone from 'backbone'
 import $ from 'jquery'
 import Tablesorter from 'tablesorter'
 import STORE from '../../../store'
+import ReactTooltip from 'react-tooltip'
 
 var seasonTEData = require('../../../data.json').tedata
 
@@ -31,6 +32,7 @@ var CurrentSeasonTEPPG = React.createClass({
 						<Body  data={seasonTEData}/>
 			        </table>
 	      		</div>
+	      		<ReactTooltip place="bottom" effect="solid" multiline={true} offset={{bottom: 20, right: 9}}/>
 	      </div>
 	    ) 
 	}
@@ -44,21 +46,21 @@ var Headers = React.createClass({
     return (
       	<thead>
 	        <tr>
-				<th id='widen-th'>PLAYER<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>TEAM<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>GP<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>TAR<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>REC<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>REYDS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>REYPC<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RETDS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RUATT<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RUYDS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RUYPC<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RUTDS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>TCHS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>TYRDS<i className="fa fa-caret-down" aria-hidden="true"></i></th>				
-				<th>FPTS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='widen-th'><span id='th-pointer' data-tip="Player Name">PLAYER</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Games Played">GP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Targets">TAR</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Receptions">REC</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Receiving Yards">REYDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Receiving Yards Per Carry">REYPC</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Receiving Touchdowns">RETDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Rushing Attempts">RUATT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Rushing Yards">RUYDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Rushing Yards Per Carry">RUYPC</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Rushing Touchdowns">RUTDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Total Touches">TCHS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Total Yards">TYRDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>				
+				<th><span id='th-pointer' data-tip="Fantasy Points">FPTS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 	        </tr>
       	</thead>
     )

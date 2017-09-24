@@ -41,28 +41,28 @@ var Headers = React.createClass({
     return (
       	<thead>
 	        <tr>
-    				<th id='widen-th' className='headercol' ><span id='th-pointer' data-tip="Player Name">PLAYER</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th id='widen-th'><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="Opponent">OPP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th id="shrink-th"><span id='th-pointer' data-tip="Slate">SLT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th id="shrink-th"><span id='th-pointer' data-tip="Injuries">INJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="DraftKings Salary">SAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="DraftKings Fantasy<br>Points Per Game">FPPG</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th id='break'><span id='th-pointer' data-tip="Projection">PROJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th><span id='th-pointer' data-tip="Fantasy Points Target differential">FP/DIF</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="H-Value<br>(by Footballguys)">H-VAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th><span id='th-pointer' data-tip="Ownage %<br>(by Rotowire)">OWN</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="Vegas Game Total">G/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="Vegas Team Total">T/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th  id='break'><span id='th-pointer' data-tip="Defense Vs. WR Grade<br>(Based on Fantasy Points<br>Against Position)">DvWR</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="Wide Receiver Defense DVOA<br>(by Fantasy Outsiders)<br><br>*2016 Rating<br>Will be update after<br>Week 4">DVOA</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th id='break'><span id='th-pointer' data-tip="Receiving Yards<br>Per Game">ReYD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="Receptions<br>Per Game">REC/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="Targets<br>Per Game">TAR/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-    				<th><span id='th-pointer' data-tip="Marketshare %<br>for Team Targets">TAR/MK</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th><span id='th-pointer' data-tip="Receiving<br>Touchdowns Per Game">ReTD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
-            <th><span id='th-pointer' data-tip="Redzone<br>Targets Per Game">RZ/TAR</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='widen-th' className='headercol' ><span id='th-pointer' data-tip="Player Name">PLAYER</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='widen-th'><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Opponent">OPP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+	            <th id="shrink-th"><span id='th-pointer' data-tip="Slate">SLT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+	            <th id="shrink-th"><span id='th-pointer' data-tip="Injuries">INJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="DraftKings Salary">SAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="DraftKings Fantasy<br>Points Per Game">FPPG</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+	            <th id='break'><span id='th-pointer' data-tip="Projection">PROJ</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+	            <th><span id='th-pointer' data-tip="Fantasy Points Target differential">FP/DIF</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="H-Value<br>(by Footballguys)">H-VAL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+	            <th><span id='th-pointer' data-tip="Ownage %<br>(by Rotowire)">OWN</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='break'><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Vegas Game Total">G/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Vegas Team Total">T/TL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th  id='break'><span id='th-pointer' data-tip="Defense Vs. WR Grade<br>(Based on Fantasy Points<br>Against Position)">DvWR</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Wide Receiver Defense DVOA<br>(by Fantasy Outsiders)<br><br>*2016 Rating<br>Will be update after<br>Week 4">DVOA</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='break'><span id='th-pointer' data-tip="Receiving Yards<br>Per Game">ReYD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Receptions<br>Per Game">REC/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Targets<br>Per Game">TAR/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Marketshare %<br>for Team Targets">TAR/MK</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+	            <th><span id='th-pointer' data-tip="Receiving<br>Touchdowns Per Game">ReTD/G</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+	            <th><span id='th-pointer' data-tip="Redzone<br>Targets Per Game">RZ/TAR</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 	        </tr>
       	</thead>
     )

@@ -3,6 +3,7 @@ import Backbone from 'backbone'
 import $ from 'jquery'
 import Tablesorter from 'tablesorter'
 import STORE from '../../../store'
+import ReactTooltip from 'react-tooltip'
 
 var qbDefense = require('../../../data.json').qbDefense
 
@@ -31,6 +32,7 @@ var CurrentDefenseQBPPG = React.createClass({
 						<Body  data={qbDefense}/>
 			        </table>
 	      		</div>
+        		<ReactTooltip place="bottom" effect="solid" multiline={true} offset={{bottom: 20, right: 9}}/>
 	      </div>
 	    ) 
 	}
@@ -44,17 +46,17 @@ var Headers = React.createClass({
     return (
       	<thead>
 	        <tr>
-				<th id='widen-th' >TEAM<i className="fa fa-caret-down" aria-hidden="true"></i></th> 
-				<th>GP<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>ATT<i className="fa fa-caret-down" aria-hidden="true"></i></th> 
-				<th>CMP<i className="fa fa-caret-down" aria-hidden="true"></i></th> 
-				<th>PAYDS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>PATDS<i className="fa fa-caret-down" aria-hidden="true"></i></th> 
-				<th>INT<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RUATT<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RUYDS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-				<th>RUTDS<i className="fa fa-caret-down" aria-hidden="true"></i></th> 
-				<th>FPTS<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th id='widen-th'><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th> 
+				<th><span id='th-pointer' data-tip="Games Played">GP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Pass Attempts">ATT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th> 
+				<th><span id='th-pointer' data-tip="Pass Completion %">CMP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th> 
+				<th><span id='th-pointer' data-tip="Passing Yards">PAYDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Passing Touchdowns">PATDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th> 
+				<th><span id='th-pointer' data-tip="Interceptions">INT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Rushing Attempts">RUATT</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Rushing Yards">RUYDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+				<th><span id='th-pointer' data-tip="Rushing Touchdowns">RUTDS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th> 
+				<th><span id='th-pointer' data-tip="Fantasy Points">FPTS</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
 	        </tr>
       	</thead>
     )

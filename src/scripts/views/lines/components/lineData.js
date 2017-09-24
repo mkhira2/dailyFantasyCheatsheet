@@ -5,6 +5,7 @@ import Tablesorter from 'tablesorter'
 import moment from 'moment'
 import STORE from '../../../store'
 import ACTIONS from '../../../actions'
+import ReactTooltip from 'react-tooltip'
 
 import LastUpdated from './../../components/lastUpdated'
 
@@ -46,6 +47,7 @@ var LineData = React.createClass({
           </div>
           </div>
         </div>
+        <ReactTooltip place="bottom" effect="solid" multiline={true} offset={{bottom: 20, right: 9}}/>
         </div>
       )
   }
@@ -59,12 +61,12 @@ var Headers = React.createClass({
     return (
       <thead>
         <tr>
-          <th>TIME (ET)<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-          <th>TEAM<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-          <th>OPP<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-          <th>LINE<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-          <th>GM TTL<i className="fa fa-caret-down" aria-hidden="true"></i></th>
-          <th>TM TTL<i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Game Time">TIME (ET)</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Team Name">TEAM</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Opponent">OPP</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Vegas Line">LINE</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Vegas Game Total">GM TTL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
+          <th><span id='th-pointer' data-tip="Vegas Team Total">TM TTL</span><i className="fa fa-caret-down" aria-hidden="true"></i></th>
         </tr>
       </thead>
     )

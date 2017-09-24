@@ -96,9 +96,9 @@ var PlannerData = React.createClass({
               <p>What type of player are you?</p>
             </div>
             <div className="bankroll-buttons">
-              <button onClick={this.handleCasualClick} >Casual</button>
-              <button onClick={this.handleModerateClick}>Moderate</button>
-              <button onClick={this.handleAggressiveClick}>Aggressive</button>
+              <button className="casual-bankroll-button" onClick={this.handleCasualClick} >Casual</button>
+              <button className="moderate-bankroll-button" onClick={this.handleModerateClick}>Moderate</button>
+              <button className="aggressive-bankroll-button" onClick={this.handleAggressiveClick}>Aggressive</button>
             </div>
             <div className="bankroll-rec">
               <p></p>
