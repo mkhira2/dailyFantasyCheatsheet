@@ -959,20 +959,37 @@ button {
     border-radius: none;
     color: #fff;
     background-color: $hover;
-    border: none;
+    // border: none,
+    border: 3px solid #fff;
     font-size: 16px;
     font-family: 'Play';
     text-transform: uppercase;
   }
 
+  .casual-bankroll-button {
+  	background: rgb(88, 182, 12);
+  }
+
+  .moderate-bankroll-button {
+  	background: gold;
+  }
+
+  .aggressive-bankroll-button {
+  	background: rgb(247, 94, 96);
+  }
+
   button:hover {
-    background-color: $hover;
+    // background-color: $hover;
+    border: 3px solid black;
   }
 
   button:focus {
-    background-color: #5290c7;
+  //   background-color: #5290c7;
     outline: none;
+    border: 3px solid black;
   }
+
+
 }
 
 .bankroll-rec {
